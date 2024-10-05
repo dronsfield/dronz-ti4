@@ -18,6 +18,8 @@ const StyledContainer = styled(Container)`
   td[data-leader-type] b {
     writing-mode: vertical-rl;
     transform: rotate(180deg);
+    min-width: 1.5em;
+    // min-height: 100px;
     // margin-block-start: 1em;
   }
 
