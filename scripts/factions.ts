@@ -1,9 +1,20 @@
 // @ts-nocheck
 
+import {
+  convertNameToAppPath,
+  convertNameToScrapePath,
+  factionNames,
+} from "@/lib/factions";
 import axios from "axios";
 // import { JSDOM } from "jsdom";
 const { JSDOM } = require("jsdom");
 import * as fs from "fs";
+
+import { loadEnvConfig } from "@next/env";
+import { promiseSequence } from "@/util/promiseSequence";
+
+const projectDir = process.cwd();
+loadEnvConfig(projectDir);
 
 // can be used in chrome console too
 function cleanFactionPage(document: Document) {
@@ -18,6 +29,7 @@ function cleanFactionPage(document: Document) {
     if (el.dataset.imageKey?.startsWith("Ti_icons")) {
       const newImg = document.createElement("img");
       newImg.src = "/" + el.dataset.imageKey.replace("png", "webp");
+      newImg.dataset.techIcon = "";
       el.parentNode?.replaceChild(newImg, el);
     } else {
       el.remove();
@@ -63,6 +75,7 @@ const downloadWebpage = async (
   outputFile: string,
   modifier: (doc: Document) => Node
 ) => {
+  console.log(`Downloading ${url} to ${outputFile}`);
   try {
     // Download the webpage
     const response = await axios.get(url);
@@ -80,12 +93,22 @@ const downloadWebpage = async (
     fs.writeFileSync(outputFile, modifiedHtml, "utf8");
     console.log(`Modified HTML saved to ${outputFile}`);
   } catch (error) {
-    console.error(`Error downloading the webpage: ${error}`);
+    console.error(`Error downloading the webpage ${url}: ${error}`);
   }
 };
 
-// Replace with the desired URL and output file name
-const url = "https://twilight-imperium.fandom.com/wiki/The_Empyrean"; // Change this to your target URL
-const outputFile = "src/data/the_empyrean_lol.html";
-
-downloadWebpage(url, outputFile, cleanFactionPage);
+promiseSequence(
+  // factionNames.map((name) => {
+  ["The Arborec"].map((name) => {
+    const scrapePath = convertNameToScrapePath(name);
+    const appPath = convertNameToAppPath(name);
+    return async () => {
+      await downloadWebpage(
+        `${process.env.SCRAPE_URL}/${scrapePath}`,
+        `src/data/${appPath}.html`,
+        cleanFactionPage
+      );
+    };
+  }),
+  200
+);

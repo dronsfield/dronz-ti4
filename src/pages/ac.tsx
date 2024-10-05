@@ -20,6 +20,20 @@ const Container = styled.div`
     border: 1px solid #ddd;
     padding: 8px;
   }
+
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    &:first-child {
+      margin-top: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 `;
 
 const acPage = () => {
@@ -29,7 +43,7 @@ const acPage = () => {
         <tbody>
           <tr>
             <th>Name</th>
-            <th>Number in Deck</th>
+            <th>In Deck</th>
             <th>Play</th>
             <th>Effect</th>
             <th>Flavor Text</th>
