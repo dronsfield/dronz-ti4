@@ -26,6 +26,9 @@ const items = sortBy(
 const Page = () => {
   return (
     <StyledContainer>
+      <div>
+        <Link href="/">{"<"} All info</Link>
+      </div>
       <h1>Factions</h1>
       <ul>
         {items.map((item) => {
