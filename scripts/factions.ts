@@ -157,7 +157,7 @@ promiseSequence(
     return async () => {
       await downloadWebpage(
         `${process.env.SCRAPE_URL}/${scrapePath}`,
-        `src/data/${appPath}.html`,
+        `src/data/factions/${appPath}.html`,
         cleanFactionPage
       );
     };

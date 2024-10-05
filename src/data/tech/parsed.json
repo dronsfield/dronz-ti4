@@ -1,0 +1,128 @@
+[
+  {
+    "type": "propulsion",
+    "name": "Antimass Deflectors",
+    "reqs": [],
+    "info": [
+      "Your ships can move into and through asteroid fields. When other players' units use SPACE CANNON against your units, apply -1 to the result of each die roll."
+    ],
+    "id": "amd",
+    "source": "base"
+  },
+  {
+    "type": "propulsion",
+    "name": "Antimass Deflectors",
+    "suffix": "Absol",
+    "reqs": [],
+    "info": [
+      "Your ships can move into and through asteroid fields and retain their printed Move value when moving out of nebulas. When other players' units use SPACE CANNON against your units, apply -1 to the result of each die roll."
+    ],
+    "id": "absol_amd",
+    "source": "absol"
+  },
+  {
+    "type": "propulsion",
+    "name": "Antimass Deflectors",
+    "suffix": "IgnisAurora",
+    "reqs": [],
+    "info": [
+      "Your ships can move into and through asteroid fields. When other players' units use SPACE CANNON against your units, apply -2 to the result of each die roll."
+    ],
+    "id": "baldrick_amd",
+    "source": "ignis_aurora"
+  },
+  {
+    "type": "propulsion",
+    "name": "Dark Energy Tap",
+    "reqs": [],
+    "info": [
+      "After you perform a tactical action in a system that contains a frontier token, if you have 1 or more ships in that system, explore that token. Your ships can retreat into adjacent systems that do not contain other players' units, even if you do not have units or control planets in that system."
+    ],
+    "id": "det",
+    "source": "pok"
+  },
+  {
+    "type": "propulsion",
+    "name": "Dark Energy Tap",
+    "suffix": "Absol",
+    "reqs": [],
+    "info": [
+      "After you perform a tactical action in a system that contains a frontier token, if you have 1 or more ships in that system, you may explore that token.",
+      "",
+      "Your ships can retreat into adjacent systems that do not contain other players' units, even if you do not have units or control planets in that system."
+    ],
+    "id": "absol_det",
+    "source": "absol"
+  },
+  {
+    "type": "propulsion",
+    "name": "Gravity Drive",
+    "reqs": [
+      "propulsion"
+    ],
+    "info": [
+      "After you activate a system, apply +1 to the move value of 1 of your ships during this tactical action."
+    ],
+    "id": "gd",
+    "source": "base"
+  },
+  {
+    "type": "propulsion",
+    "name": "Gravity Drive",
+    "suffix": "IgnisAurora",
+    "reqs": [
+      "propulsion"
+    ],
+    "info": [
+      "After you activate a system, you may exhaust this card to apply +1 to the move value of your ships during this tactical action."
+    ],
+    "id": "baldrick_gd",
+    "source": "ignis_aurora"
+  },
+  {
+    "type": "UnitUpgradeTech",
+    "name": "Carrier II",
+    "suffix": "IgnisAurora",
+    "reqs": [
+      "biotic",
+      "propulsion"
+    ],
+    "info": [
+      "Cost 3, Combat 9, Move 2, Capacity 6"
+    ],
+    "id": "baldrick_cv2",
+    "source": "ignis_aurora"
+  },
+  {
+    "type": "UnitUpgradeTech",
+    "name": "Carrier II",
+    "suffix": "ProjectPie",
+    "reqs": [
+      "biotic",
+      "propulsion"
+    ],
+    "info": [
+      "Cost 3, Combat 9, Move 2, Capacity 6."
+    ],
+    "id": "pi_cv2",
+    "source": "project_pi"
+  },
+  {
+    "type": "UnitUpgradeTech",
+    "name": "Destroyer II",
+    "suffix": "Absol",
+    "reqs": [
+      "warfare",
+      "warfare"
+    ],
+    "info": [
+      "COST 1; COMBAT 8; MOVE 2",
+      "",
+      "When this unit generates hits on rolls based on its combat value, it generates 1 additional hit that may only be assigned to fighters.",
+      "",
+      "ANTI-FIGHTER BARRAGE 6(x3)"
+    ],
+    "id": "absol_dd2",
+    "source": "absol"
+  }
+]

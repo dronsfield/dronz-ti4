@@ -1,0 +1,46 @@
+:propulsion:Antimass Deflectors
+Requirements: None
+Your ships can move into and through asteroid fields. When other players' units use SPACE CANNON against your units, apply -1 to the result of each die roll.
+ID: amd    Source: base
+:propulsion:Antimass Deflectors:Absol:
+Requirements: None
+Your ships can move into and through asteroid fields and retain their printed Move value when moving out of nebulas. When other players' units use SPACE CANNON against your units, apply -1 to the result of each die roll.
+ID: absol_amd    Source: absol
+:propulsion:Antimass Deflectors:IgnisAurora:
+Requirements: None
+Your ships can move into and through asteroid fields. When other players' units use SPACE CANNON against your units, apply -2 to the result of each die roll.
+ID: baldrick_amd    Source: ignis_aurora
+:propulsion:Dark Energy Tap
+Requirements: None
+After you perform a tactical action in a system that contains a frontier token, if you have 1 or more ships in that system, explore that token. Your ships can retreat into adjacent systems that do not contain other players' units, even if you do not have units or control planets in that system.
+ID: det    Source: pok
+:propulsion:Dark Energy Tap:Absol:
+Requirements: None
+After you perform a tactical action in a system that contains a frontier token, if you have 1 or more ships in that system, you may explore that token.
+
+Your ships can retreat into adjacent systems that do not contain other players' units, even if you do not have units or control planets in that system.
+ID: absol_det    Source: absol
+:propulsion:Gravity Drive
+Requirements: :propulsion:
+After you activate a system, apply +1 to the move value of 1 of your ships during this tactical action.
+ID: gd    Source: base
+:propulsion:Gravity Drive:IgnisAurora:
+Requirements: :propulsion:
+After you activate a system, you may exhaust this card to apply +1 to the move value of your ships during this tactical action.
+ID: baldrick_gd    Source: ignis_aurora
+:UnitUpgradeTech:Carrier II:IgnisAurora:
+Requirements: :biotic::propulsion:
+Cost 3, Combat 9, Move 2, Capacity 6
+ID: baldrick_cv2    Source: ignis_aurora
+:UnitUpgradeTech:Carrier II:ProjectPie:
+Requirements: :biotic::propulsion:
+Cost 3, Combat 9, Move 2, Capacity 6.
+ID: pi_cv2    Source: project_pi
+:UnitUpgradeTech:Destroyer II:Absol:
+Requirements: :warfare::warfare:
+COST 1; COMBAT 8; MOVE 2
+
+When this unit generates hits on rolls based on its combat value, it generates 1 additional hit that may only be assigned to fighters.
+
+ANTI-FIGHTER BARRAGE 6(x3)
+ID: absol_dd2    Source: absol
