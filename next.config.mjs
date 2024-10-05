@@ -5,11 +5,6 @@ const nextConfig = {
     styledComponents: true
   },
   redirects: () => ([
-    {
-      source: '/',
-      destination: '/ac',
-      permanent: true,
-    }
   ])
 };
 

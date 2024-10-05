@@ -1,7 +1,21 @@
+import Link from "next/link";
 import React from "react";
+import { Container } from "../components/Container";
 
 export function Home() {
-  return <div>stop sam pls</div>;
+  return (
+    <Container>
+      <h1>TI4 Info</h1>
+      <ul>
+        <li>
+          <Link href="/factions">Factions</Link>
+        </li>
+        <li>
+          <Link href="/ac">Action cards</Link>
+        </li>
+      </ul>
+    </Container>
+  );
 }
 
 export default Home;

@@ -1,8 +1,5 @@
-import { removeLinks } from "@/scraping";
 import React from "react";
 import styled from "styled-components";
-
-console.log(removeLinks);
 
 const Container = styled.div`
   th:nth-child(5),

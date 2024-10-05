@@ -29,10 +29,20 @@ export const factionNames = [
 export const convertNameToScrapePath = (name: string) => {
   return name.replace(/ /g, "_").replace(/'/g, "%27");
 };
-export const convertNameToAppPath = (name: string) => {
+export const convertNameToId = (name: string) => {
   return name
     .replace("The ", "")
     .replace(/ /g, "-")
     .replace(/[^a-zA-Z-]/g, "")
     .toLowerCase();
 };
+export const convertNameToDisplay = (name: string) => {
+  return name.replace("The ", "");
+};
+
+export const factionItems = factionNames.map((name) => ({
+  name,
+  displayName: convertNameToDisplay(name),
+  id: convertNameToId(name),
+  scrapePath: convertNameToScrapePath(name),
+}));

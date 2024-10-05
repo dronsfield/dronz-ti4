@@ -1,7 +1,7 @@
 // @ts-nocheck
 
 import {
-  convertNameToAppPath,
+  convertNameToId,
   convertNameToScrapePath,
   factionNames,
 } from "@/lib/factions";
@@ -24,6 +24,17 @@ function cleanFactionPage(document: Document) {
   const parserOutputDiv = document.querySelector("div.mw-parser-output");
 
   const clone = parserOutputDiv!.cloneNode(true);
+
+  const leadersTable =
+    clone.querySelector("#Leaders").parentNode.nextElementSibling;
+
+  leadersTable
+    .querySelectorAll(`th:nth-child(2), td:nth-child(2)`)
+    .forEach((el) => el.remove());
+
+  leadersTable.querySelectorAll(`td:first-child`).forEach((el) => {
+    el.dataset.leaderType = "";
+  });
 
   clone.querySelectorAll("img").forEach((el) => {
     if (el.dataset.imageKey?.startsWith("Ti_icons")) {
@@ -49,7 +60,48 @@ function cleanFactionPage(document: Document) {
     span.innerHTML = anchor.innerHTML; // Copy the innerHTML from <a> to <span>
     anchor.parentNode?.replaceChild(span, anchor); // Replace <a> with <span>
   });
+
+  clone.querySelectorAll("th").forEach((el) => {
+    if (el.innerHTML.includes("Cost")) {
+      el.innerHTML = "£";
+    }
+    if (el.innerHTML.includes("Combat")) {
+      el.innerHTML = "Co.";
+    }
+    if (el.innerHTML.includes("Capacity")) {
+      el.innerHTML = "Ca.";
+    }
+    if (el.innerHTML.includes("Move")) {
+      el.innerHTML = "M.";
+    }
+    if (el.innerHTML.includes("Prerequisites")) {
+      el.innerHTML = "Prereqs";
+    }
+  });
+
+  clone.querySelectorAll("h2 span").forEach((el) => {
+    if (el.innerHTML.includes("Faction Abilities")) {
+      el.innerHTML = "Abilities";
+    }
+    if (el.innerHTML.includes("Faction Promissory Note")) {
+      el.innerHTML = "Promisorry Note(s)";
+    }
+    if (el.innerHTML.includes("Faction Technologies")) {
+      el.innerHTML = "Technologies";
+    }
+  });
+
+  const galleryHeader = clone.querySelector("#Gallery").parentNode;
+  const aside = clone.querySelector("aside");
+  galleryHeader.parentNode.replaceChild(aside, galleryHeader);
+
   clone.querySelectorAll("*").forEach((element) => {
+    if (
+      element.localName === "span" &&
+      ["", "[", "]", "<br>"].includes(element.innerHTML)
+    ) {
+      element.remove();
+    }
     element.removeAttribute("class");
     element.removeAttribute("style");
     element.removeAttribute("colspan");
@@ -98,10 +150,10 @@ const downloadWebpage = async (
 };
 
 promiseSequence(
-  // factionNames.map((name) => {
-  ["The Arborec"].map((name) => {
+  factionNames.map((name) => {
+    // ["The Arborec"].map((name) => {
     const scrapePath = convertNameToScrapePath(name);
-    const appPath = convertNameToAppPath(name);
+    const appPath = convertNameToId(name);
     return async () => {
       await downloadWebpage(
         `${process.env.SCRAPE_URL}/${scrapePath}`,
