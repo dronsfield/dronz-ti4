@@ -85,7 +85,7 @@ export const getStaticPaths = (async () => {
 export const getStaticProps = (async (context) => {
   const id = context.params?.id;
   if (!id) throw new Error("invalid faction id");
-  const data = fs.readFileSync(`src/data/${id}.html`, "utf-8");
+  const data = fs.readFileSync(`src/data/factions/${id}.html`, "utf-8");
   const name = factionItems.find((item) => item.id === id)?.displayName || "";
   return { props: { data, name } };
 }) satisfies GetStaticProps<PageProps, Params>;

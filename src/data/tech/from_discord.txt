@@ -28,6 +28,1165 @@ ID: gd    Source: base
 Requirements: :propulsion:
 After you activate a system, you may exhaust this card to apply +1 to the move value of your ships during this tactical action.
 ID: baldrick_gd    Source: ignis_aurora
+:propulsion:Gravity Drive:Absol:
+Requirements: :propulsion:
+During your tactical actions, apply +1 to the move value of each of your ships that moves through 1 or more systems adjacent to a gravity rift or supernova, or that moves through 1 or more wormholes.
+After you roll dice for your ships moving through a gravity rift, you may reroll any number of those dice.
+ID: absol_gd    Source: absol
+:propulsion:Sling Relay:Absol:
+Requirements: :propulsion:
+During your tactical actions, your non-blockaded space docks in adjacent systems may use the PRODUCTION 1 ability in the active system if it does not contain other players' ships. If you have a space dock unit upgrade technology, they instead may use PRODUCTION 2. All units produced are placed in the space area.
+ID: absol_sr    Source: absol
+:propulsion:Sling Relay
+Requirements: :propulsion:
+ACTION: Exhaust this card to produce 1 ship in any system that contains one of your space docks.
+ID: sr    Source: pok
+:propulsion:Chaos Mapping:Saar:
+Requirements: :propulsion:
+Other players cannot activate asteroid fields that contain 1 or more of your ships. At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production.
+ID: cm    Source: base
+:propulsion:Chaos Mapping:Saar::Absol:
+Requirements: :propulsion:
+At the start of your turn, you may exhaust this card to produce 1 unit at each of your space docks.
+
+Apply +1 to your ship's combat rolls in asteroid fields.
+ID: absol_cm    Source: absol
+:propulsion:Geosympathic Impeller:olradin::DS:
+Requirements: :propulsion:
+After you activate a system, you may exhaust a planet you control of the same type as a planet in that system to apply +1 to the move value of each of your ships during this tactical action.
+ID: dsolrab    Source: ds
+:propulsion:Lazax Gate Folding:Winnu::MiltyMod:
+Requirements: :propulsion:
+During your tactical actions, treat the Mecatol Rex system as if it contains each non-delta wormhole.
+
+ACTION: If you control Mecatol Rex, exhaust this card to place 1 infantry from your reinforcements on Mecatol Rex.
+ID: miltymod_lgf    Source: miltymod
+:propulsion:Lazax Gate Folding:Winnu::ProjectPie:
+Requirements: :propulsion:
+During your tactical actions, treat Mecatol Rex's system as if it contains each non-delta wormhole.
+ID: pi_lgf    Source: project_pi
+:propulsion:Lazax Gate Folding:Winnu::IgnisAurora:
+Requirements: :propulsion:
+During your tactical actions, treat the Mecatol Rex system as if it contains each non-delta wormhole.
+ID: baldrick_lgf    Source: ignis_aurora
+:propulsion:Midas Turbine:vaden::DS:
+Requirements: :propulsion:
+After you activate a system, you may exhaust this card and spend any number of trade goods; for each trade good you spent, apply +1 to the move value of 1 non-fighter ship you control.
+ID: dsvadeb    Source: ds
+:propulsion:Rift Engines:axis::DS:
+Requirements: :propulsion:
+After you activate a system, you may exhaust this card to choose 1 ship you control and roll a die. On a result of 1-3, remove that ship from the game board; on a result of 4-10, apply +2 to that ship's move value during this tactical action.
+ID: dsaxisb    Source: ds
+:propulsion:Shrouded Skirmishers:kollecc::DS:
+Requirements: :propulsion:
+At the start of a space combat, you may choose 1 of your ships in the active system that did not begin this action in that system; roll a die. On a result equal to or greater than that ship's combat value, produce 1 hit; your opponent must assign it to 1 of their ships.
+ID: dskollb    Source: ds
+:propulsion:Tactical Retreat:syndicate::IgnisAurora:
+Requirements: :propulsion:
+Secret
+ID: tac    Source: pbd2000
+:propulsion:Wormhole Generator:Creuss::ProjectPie:
+Requirements: :biotic:
+ACTION: Exhaust this card to place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships.
+ID: pi_wg    Source: project_pi
+:propulsion:Wormhole Generator:Creuss::MiltyMod:
+Requirements: :propulsion:
+Action: Exhaust this card to place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships.
+ID: miltymod_wg    Source: miltymod
+:propulsion:Fleet Logistics
+Requirements: :propulsion::propulsion:
+During each of your turns of the action phase, you may perform 2 actions instead of 1.
+ID: fl    Source: base
+:propulsion:Fleet Logistics:Absol:
+Requirements: :propulsion::propulsion:
+Once per turn, after you perform a tactical action, you may take an additional tactical action. You may activate the same system for this second tactical action; in that case, ensure that only 1 of your command tokens total is in the system by returning the second command token to your reinforcements instead of placing it in the active system.
+ID: absol_fl    Source: absol
+:propulsion:Fleet Logistics:MiltyMod:
+Requirements: :propulsion::propulsion:
+During each of your turns of the action phase, after you perform an action, you may perform an additional tactical action.
+ID: miltymod_fl    Source: miltymod
+:propulsion::warfare:Planetary Defense Network
+Requirements: :propulsion::warfare:
+At the start of the status phase you may remove 1 PDS from 1 planet you control and place it on another planet you control in or adjacent to that system.
+This card counts as either a red or blue prerequisite.
+ID: nf_pdn    Source: nomadfalcon
+:propulsion:Stellar Corridors:IgnisAurora:
+Requirements: :propulsion::propulsion:
+At the start of your turn you may exhaust this card to remove 1 of your command tokens from a system that does not contain a planet owned by another player or another player's units.
+ID: stellarcorridors    Source: ignis_aurora
+:propulsion:Tranist Diodes:ProjectPie:
+Requirements: :propulsion::propulsion:
+You may exhaust this card at the start of your turn during the action phase; remove up to 4 of your ground forces from the game board and place them on 1 or more planets you control.
+ID: pi_td    Source: project_pi
+:propulsion::cybernetic:Transit Fighter Pods
+Requirements: :propulsion::cybernetic:
+At the start of your turn during the action phase you may exhaust this card to remove up to 4 of your fighters from the game board and place them in up to 4 systems with any of your ships.
+ID: nf_tfp    Source: nomadfalcon
+:propulsion:Aetherstream:Empyrean:
+Requirements: :propulsion::propulsion:
+After you or one of your neighbors activates a system that is adjacent to an anomaly, you may apply +1 to the move value of all of that player's ships during this tactical action.
+ID: as    Source: pok
+:propulsion:Aetherstream:Empyrean::Absol:
+Requirements: :propulsion::propulsion:
+After you or one of your neighbors activates a system that is adjacent to an anomaly, you may apply +1 to the move value of all of that player's ships during this tactical action.
+ID: absol_as    Source: absol
+:propulsion:Lazax Gate Folding:Winnu:
+Requirements: :propulsion::propulsion:
+During your tactical actions, if you do not control Mecatol Rex, treat its system as if it has both an α and β wormhole. ACTION: If you control Mecatol Rex, exhaust this card to place 1 infantry from your reinforcements on Mecatol Rex.
+ID: lgf    Source: base
+:propulsion:Lazax Gate Folding:Winnu::Absol:
+Requirements: :propulsion::propulsion:
+During your tactical actions, you may treat your home system and the Mecatol Rex system as if they contained a gamma wormhole.
+ID: absol_lgf    Source: absol
+:propulsion:Nexus Grid:raven::IgnisAurora:
+Requirements: :propulsion::propulsion:
+After you activate a system, you may exhaust this card to treat the active system as if it contains every type of wormhole.
+ID: negr    Source: pbd2000
+:propulsion:Pilgrimage Beacons:zealots::DS:
+Requirements: :propulsion::propulsion:
+Once during your turn, when you exhaust 1 or more planets you control that have a technology specialty, you may produce 1 ship in 1 system that contains 1 of those planets.
+ID: dsrhodb    Source: ds
+:propulsion:Spark Thrusters:lanefir::DS:
+Requirements: :propulsion::propulsion:
+ACTION: Spend 1 command token from your strategy pool or purge 1 relic fragment to move 1 of your ships to an adjacent system that contains no other player's ships. If you spent a command token, exhaust this card.
+ID: dslaneb    Source: ds
+:propulsion:Spatial Conduit Cylinder:JolNar::Absol:
+Requirements: :propulsion::propulsion:
+During your tactical actions, you may treat systems that contain 1 or more of your space docks as adjacent.
+ID: absol_scc    Source: absol
+:propulsion:Spatial Conduit Cylinders:JolNar:
+Requirements: :propulsion::propulsion:
+You may exhaust this card after you activate a system that contains 1 or more of your units; that system is adjacent to all other systems that contain 1 or more of your units during this activation.
+ID: scc    Source: base
+:propulsion:Spatial Conduit Cylinders:JolNar::IgnisAurora:
+Requirements: :propulsion::propulsion:
+You may treat all systems that contain your structures as adjacent.
+ID: baldrick_scc    Source: ignis_aurora
+:propulsion:Stellar Corridors:raven::IgnisAurora:
+Requirements: :propulsion::propulsion:
+At the start of your turn you may exhaust this card to remove 1 of your command tokens from a system that does not contain a planet owned by another player or another player's units.
+ID: stco    Source: pbd2000
+:propulsion:Wormhole Generator:Creuss::Absol:
+Requirements: :propulsion::propulsion:
+ACTION: Exhaust this card to place or move up to 2 Creuss wormhole tokens into systems that contain a planet you control and/or non-home systems that do not contain another player's ships.
+ID: absol_wg    Source: absol
+:propulsion:Wormhole Generator:Creuss:
+Requirements: :propulsion::propulsion:
+ACTION: Exhaust this card to place or move a Creuss wormhole token into either a system that contains a planet you control or a non-home system that does not contain another player's ships.
+ID: wg    Source: base
+:propulsion:Wraith Engine:lizho::DS:
+Requirements: :propulsion::propulsion:
+After you activate a non-home system, you may exhaust this card to choose 1 ship you control; you may treat that ship as adjacent to the active system until the end of this tactical action.
+ID: dslizhb    Source: ds
+:propulsion:Hypernet Gates
+Requirements: :propulsion::propulsion::cybernetic:
+After you activate a system that conatins 1 or more of your structures you may exhaust this card to treat all systems with your structures as adjacent till the end of your turn.
+ID: nf_hg    Source: nomadfalcon
+:propulsion:Light/Wave Deflector
+Requirements: :propulsion::propulsion::propulsion:
+Your ships can move through systems that contain other players' ships.
+ID: lwd    Source: base
+:propulsion:Light/Wave Deflector:Absol:
+Requirements: :propulsion::propulsion::propulsion:
+Your ships can move through systems that contain other players' ships.
+ID: absol_lwd    Source: absol
+:propulsion:Light/Wave Deflector:IgnisAurora:
+Requirements: :propulsion::propulsion::propulsion:
+After you activate a system, you may exhaust this card to allow your ships to move through systems that contain other players' ship during this tactical action.
+ID: baldrick_lwd    Source: ignis_aurora
+:propulsion:Chaos Mapping:Saar::MiltyMod:
+Requirements: :propulsion::propulsion::propulsion:
+Other players cannot move ships into asteroid fields that contain 1 or more of your ships.
+
+At the start of your turn during the action phase, you may produce 1 unit in a system that contains at least 1 of your units that has Production.
+ID: miltymod_cm    Source: miltymod
+:propulsion:Lightning Drives:gledge::DS:
+Requirements: :propulsion::propulsion::propulsion:
+During movement, you may increase the move value of each of your units not transporting fighters or infantry by 1.
+ID: dsgledb    Source: ds
+:cybernetic::warfare:Quantumcore:Absol:
+Requirements: None
+During the movement step of your tactical actions, you may move 1 of your structures from a system that does not contain 1 of your command tokens to a planet you control in the active system.
+When an opponent commits ground forces to a planet that contains 1 or more of your structures, you may destroy 1 strucutre on that planet to return the committed units to the space area. If you do, purge this card
+ID: absol_techquantumcore    Source: absol
+:cybernetic:Sarween Tools:ProjectPie:
+Requirements: None
+When you produce 1 or more units, reduce the combined cost of the produced units by 1.
+ID: pi_st    Source: project_pi
+:cybernetic:Sarween Tools:Absol:
+Requirements: None
+'When you produce units, reduce the combined cost of the produced units by 1, plus an additional 1 for every 10 of the combined cost.
+
+During the production step of your tactical actions, you may spend 1 resource to repair 1 of your units if the active system contains 1 of your space docks, or 2 resources to repair 1 of your units if it does not.
+ID: absol_st    Source: absol
+:cybernetic:Sarween Tools:MiltyMod:
+Requirements: None
+When you produce 1 or more units, reduce the combined cost of the produced units by 1.
+ID: miltymod_st    Source: miltymod
+:cybernetic:Sarween Tools
+Requirements: None
+When 1 or more of your units use Production, reduce the combined cost of the produced units by 1.
+ID: st    Source: base
+:cybernetic:Scanlink Drone Network
+Requirements: None
+When you activate a system, you may explore 1 planet in that system which contains 1 or more of your units.
+ID: sdn    Source: pok
+:cybernetic:Scanlink Drone Network:Absol:
+Requirements: None
+When you activate a system as part of a tactical action, you may explore 1 planet in that system that contains 1 or more of your units.
+
+Whenever you would resolve an exploration card, you may instead discard that card and gain 1 trade good.
+ID: absol_sdn    Source: absol
+:cybernetic:L4 Disruptors:Letnev::ProjectPie:
+Requirements: None
+During an invasion, your opponents cannot use SPACE CANNON against your units.
+ID: pi_l4    Source: project_pi
+:cybernetic:L4 Disruptors:Letnev::MiltyMod:
+Requirements: None
+During an invasion, units cannot use Space Cannon against your units.
+ID: miltymod_l4    Source: miltymod
+:cybernetic:Graviton Laser System
+Requirements: :cybernetic:
+You may exhaust this card before 1 or more of your units uses Space Cannon; hits produced by those units must be assigned to non-fighter ships if able.
+ID: gls    Source: base
+:cybernetic:Graviton Laser System:Absol:
+Requirements: :cybernetic:
+When a player would resolve a retreat, your units may first use SPACE CANNON against the retreating player’s ships in the active system.
+
+You may exhaust this card before 1 or more of your units use SPACE CANNON; hits produced by those units must be assigned to non-fighter ships if able.
+ID: absol_gls    Source: absol
+:cybernetic:Graviton Laser System:MiltyMod:
+Requirements: :cybernetic:
+You may exhaust this card before 1 or more of your units use SPACE CANNON; hits produced by those units must be assigned to non-fighter ships if able.
+
+You may exhaust this card at the start of a space combat round; hits produced by your units this round must be assigned to non-fighter ships if able.
+ID: miltymod_gls    Source: miltymod
+:cybernetic:Predictive Intelligence:IgnisAurora:
+Requirements: :cybernetic:
+At the end of your turn, you may exhaust this card to redistribute your command tokens.
+When you cast votes during the agenda phase, you may cast 3 additional votes.
+ID: baldrick_pi    Source: ignis_aurora
+:cybernetic:Predictive Intelligence:Absol:
+Requirements: :cybernetic:
+At the start of your turn, you may exhaust this card to redistribute your command tokens.
+
+When you cast votes during the agenda phase, you may cast 3 additional votes
+ID: absol_pi    Source: absol
+:cybernetic:Predictive Intelligence
+Requirements: :cybernetic:
+At the end of your turn, you may exhaust this card to redistribute your command tokens.
+
+When you cast votes during the agenda phase, you may cast 3 additional votes; if you do, and the outcome you voted for is not resolved, exhaust this card.
+ID: pi    Source: pok
+:cybernetic:Self Assembly Routines:ProjectPie:
+Requirements: :cybernetic:
+After 1 or more of your units use PRODUCTION, you may exhaust thiscard to place 1 mech from your reinformcements on a planet you control in that system. After 1 of your mechs is destroyed, gain 1 trade good.
+ID: pi_sar    Source: project_pi
+:cybernetic:Transit Diodes:IgnisAurora:
+Requirements: :cybernetic:
+You may exhaust this card at the start of your turn during the action phase; remove up to 4 of your ground forces from the game board and place them on 1 or more planets you control.
+ID: baldrick_td    Source: ignis_aurora
+:cybernetic:Aerie Hololattice:Argent:
+Requirements: :cybernetic:
+Other players cannot move ships through systems that contain your structures. Each planet that contains 1 or more of your structures gains the PRODUCTION 1 ability as if it were a unit.
+ID: ah    Source: pok
+:cybernetic:Aerie Hololattice:Argent::Absol:
+Requirements: :cybernetic:
+Other players cannot move ships through systems that contain your structures.
+
+Each planet that contains 1 or more of your structures gains the PRODUCTION X ability as if it were a unit, where X is the number of structures on that planet.
+ID: absol_ah    Source: absol
+:cybernetic:Coproduction:syndicate::IgnisAurora:
+Requirements: :cybernetic:
+Secret
+ID: cop    Source: pbd2000
+:cybernetic:Daedalon Flight System:tnelis::DS:
+Requirements: :cybernetic:
+After a round of space combat in a system that contains 1 or more of your mechs, you may have 1 of those units become damaged to produce 1 hit and assign it to a cruiser, dreadnought, or destroyer you do not control in that system.
+ID: dstnely    Source: ds
+:cybernetic:Hegemonic Trade Policy:Winnu::ProjectPie:
+Requirements: :cybernetic:
+Exhaust this card when 1 or more of your units use PRODUCTION; swap the reousrce and influence values of 1 planet your control during the use of PRODUCTION.
+ID: pi_htp    Source: project_pi
+:cybernetic:Hegemonic Trade Policy:Winnu::IgnisAurora:
+Requirements: :cybernetic:
+Exhaust this card when 1 or more of your units use PRODUCTION; swap the resource and influence values of 1 planet you control until the end of your turn.
+ID: baldrick_htp    Source: ignis_aurora
+:cybernetic:Hegemonic Trade Policy:Winnu::MiltyMod:
+Requirements: :cybernetic:
+Exhaust this card when 1 or more of your units use Production; swap the resource and influence values of 1 planet you control during that use of Production.
+ID: miltymod_htp    Source: miltymod
+:cybernetic:I.I.H.Q.:Keleres::Absol:
+Requirements: :cybernetic:
+You are neighbors with all players that have units or control planets in or adjacent to the Mecatol Rex system.
+
+Gain the Custodia Vigilia planet card and its legendary planet ability card. You cannot lose these cards, and this card cannot have an X or Y assimilator token placed on it.
+ID: absol_iihq    Source: absol
+:cybernetic:I.I.H.Q. Modernization:Keleres:
+Requirements: :cybernetic:
+You are neighbors with all players that have units or control planets in or adjacent to the Mecatol Rex system. Gain the Custodia Vigilia planet card and its legendary planet ability card. You cannot lose these cards, and this card cannot have an X or Y assimilator token placed on it.
+LEGENDARY TEXT: While you control Mecatol Rex, it gains SPACE CANNON 5 and PRODUCTION 3. Gain 2 command tokens when another player scores Custodians VP using Imperial Primary.
+ID: iihq    Source: pok
+:cybernetic:Impluse Core:Yin::ProjectPie:
+Requirements: :cybernetic:
+At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit and assign it to 1 of your opponent's ships.
+ID: pi_ic    Source: project_pi
+:cybernetic:Impulse Core:Yin::IgnisAurora:
+Requirements: :cybernetic:
+When you or your opponent resolve a retreat, you may produce a hit and assign it to one of your opponent's ships in the active system.
+ID: baldrick_ic    Source: ignis_aurora
+:cybernetic:Impulse Core:Yin::MiltyMod:
+Requirements: :cybernetic:
+At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit and assign it to 1 of your opponent's ships.
+ID: miltymod_ic    Source: miltymod
+:cybernetic:Inheritance Systems:L1Z1X::MiltyMod:
+Requirements: :cybernetic:
+You may exhaust this card when you research a technology; ignore all of that technology's prerequisites.
+ID: miltymod_is    Source: miltymod
+:cybernetic:Inheritance Sysytems:L1Z1X::ProjectPie:
+Requirements: :cybernetic:
+You may exhaust this card when you research a technology; ingore all of that technology's prerequisites.
+ID: pi_is    Source: project_pi
+:cybernetic:L4 Disruptors:Letnev:
+Requirements: :cybernetic:
+During an invasion, units cannot use Space Cannon against your units.
+ID: l4    Source: base
+:cybernetic:L4 Disruptors:Letnev::IgnisAurora:
+Requirements: :cybernetic:
+At the start of a space combat you may exhaust this card. If you do, the other player cannot retreat or resolve abilities that would move their ships during this combat.
+ID: baldrick_l4    Source: ignis_aurora
+:cybernetic:L4 Disruptors:Letnev::Absol:
+Requirements: :cybernetic:
+During an invasion, units cannot use SPACE CANNON against your units.
+
+You may exhaust this card at the start of a ground combat; your opponent cannot make combat rolls during the first combat round.
+ID: absol_l4    Source: absol
+:cybernetic:Molecular Transference:Admins::Admins:
+Requirements: :cybernetic:
+Systems that contain a planet with one of your Space Docks on it are considered adjacent to each other for all game effects.
+ID: adminsy    Source: admins
+:cybernetic:Nullification Field:Xxcha::ProjectPie:
+Requirements: :cybernetic:
+After another player activated a system that contains 1 or more of your ships, you may exhaust this card and spend 1 token from your strategy pool; immediately end that player's turn.
+ID: pi_nf    Source: project_pi
+:cybernetic:Parallel Production:ghoti::DS:
+Requirements: :cybernetic:
+When you produce 1 or more units, you may produce 1 additional unit in a system that contains 1 or more of your ships and 1 of your command tokens.
+ID: dsghoty    Source: ds
+:cybernetic:Recursive Worm:cymiae::DS:
+Requirements: :cybernetic:
+At the start of your turn, you may exhaust this card to choose 1 non-home system other than Mecatol Rex that contains 1 or more of your units; place 1 other player's command token from their reinforcements in that system.
+ID: dscymiy    Source: ds
+:cybernetic:Synthetic Reclamation:Arborec::IgnisAurora:
+Requirements: :cybernetic:
+When 1 or more of your units produces units, you may remove infantry from that system. For each infantry that you remove, reduce the combined cost of the produced units by 1.
+ID: syntheticreclamation    Source: ignis_aurora
+:cybernetic:Temporal Command Suite:Nomad::Absol:
+Requirements: :cybernetic:
+At any time during the action phase, you may exhaust this card to perform a transaction with another player. As part of that transaction, you may ready that player's agent.
+ID: absol_tcs    Source: absol
+:cybernetic:Temporal Command Suite:Nomad:
+Requirements: :cybernetic:
+After any player's agent becomes exhausted, you may exhaust this card to ready that agent; if you ready another player's agent, you may perform a transaction with that player.
+ID: tcs    Source: pok
+:cybernetic:Vector Program:blex::DS:
+Requirements: :cybernetic:
+At the start of the strategy phase, you may place any number of your trade goods on any combination of strategy cards. Then, place 2 trade goods from the supply on 1 strategy card
+ID: dskyroy    Source: ds
+:cybernetic:Voidwake Missiles:nivyn::DS:
+Requirements: :cybernetic:
+After 1 or more of your units with SUSTAIN DAMAGE makes a combat roll, you may choose 1 of those units to become damaged to reroll its combat roll.
+ID: dsnivyy    Source: ds
+:cybernetic:Fleet Logistics:IgnisAurora:
+Requirements: :cybernetic::cybernetic:
+During each of your turns of the action phase, you may perform 2 actions instead of 1.
+ID: baldrick_fl    Source: ignis_aurora
+:cybernetic:Fleet Logistics:ProjectPie:
+Requirements: :cybernetic::cybernetic:
+Once during your turn in the action phase, after you perform an action, you may perform an additional action.
+ID: pi_fl    Source: project_pi
+:cybernetic::biotic:Neural Implants
+Requirements: :cybernetic::biotic:
+At the start of your turn you may remove 1 of your infantry from the game board to gain 1 trade good.
+This card counts as either a green or yellow prerequsite.
+ID: nf_ni    Source: nomadfalcon
+:cybernetic:Predictive Intelligence:ProjectPie:
+Requirements: :cybernetic::cybernetic:
+At the end of your turn, you may exhaust this card to redistribute your command tokens. When you redistribute your command tokens, you may convert all your commodities into trade goods.
+ID: pi_pi    Source: project_pi
+:cybernetic:Transit Diodes:Absol:
+Requirements: :cybernetic::cybernetic:
+You may exhaust this card at the start of your turn during the action phase; remove up to 4 of your ground forces from the game board and place them on 1 or more planets you control.
+
+You may exhaust this card at the start of a round of invasion combat on a planet you control. If you do, at the end of that combat round, you may remove all of your ground forces from that planet and place them on another planet you control.
+ID: absol_td    Source: absol
+:cybernetic:Transit Diodes
+Requirements: :cybernetic::cybernetic:
+You may exhaust this card at the start of your turn during the action phase; remove up to 4 of your ground forces from the game board and place them on 1 or more planets you control.
+ID: td    Source: base
+:cybernetic:Agency Supply Network:Keleres::Absol:
+Requirements: :cybernetic::cybernetic:
+After you resolve one of your PRODUCTION abilities, you may resolve an additional one of your PRODUCTION abilities in any system; the additional use does not trigger this ability.
+ID: absol_asn    Source: absol
+:cybernetic:Agency Supply Network:Keleres:
+Requirements: :cybernetic::cybernetic:
+Whenever you resolve one of your PRODUCTION abilities, you may resolve an additional one of your PRODUCTION abilities in any system; the additional use does not trigger this ability.
+ID: asn    Source: pok
+:cybernetic:Augmentation:terminator::IgnisAurora:
+Requirements: :cybernetic::cybernetic:
+Secret
+ID: aug    Source: pbd2000
+:cybernetic:Contractual Obligations:rohdhna::DS:
+Requirements: :cybernetic::cybernetic:
+At the start of the agenda phase, for each unit upgrade technology you control, you may choose 1 player. Each of those players must produce 1 ship in a system that contains 1 or more of their space docks or war suns.
+ID: dsrohdy    Source: ds
+:cybernetic:Covert Strike Teams:freesystems::DS:
+Requirements: :cybernetic::cybernetic:
+At the start of a ground combat, you may roll 1 die for each of up to 2 of your ground forces on that planet. For each result equal to or greater than that unit's combat value, produce 1 hit; your opponent must assign it to 1 of their units on that planet.
+ID: dsfreey    Source: ds
+:cybernetic:E-Res Siphons:JolNar::MiltyMod:
+Requirements: :cybernetic::cybernetic:
+After another player activates a system that contains 1 or more of your ships, gain 2 trade goods.
+ID: miltymod_ers    Source: miltymod
+:cybernetic:E-Res Siphons:JolNar:
+Requirements: :cybernetic::cybernetic:
+After another player activates a system that contains 1 or more of your ships, gain 4 trade goods.
+ID: ers    Source: base
+:cybernetic:E-Res Siphons:JolNar::IgnisAurora:
+Requirements: :cybernetic::cybernetic:
+After another player activates a system that contains 1 or more of your ships, gain 3 trade goods.
+ID: baldrick_ers    Source: ignis_aurora
+:cybernetic:E-Res Siphons:JolNar::ProjectPie:
+Requirements: :cybernetic::cybernetic:
+After another player activates a system that contain 1 or more of your ships, gain 3 trade goods.
+ID: pi_ers    Source: project_pi
+:cybernetic:E-Res Siphons:JolNar::Absol:
+Requirements: :cybernetic::cybernetic:
+When another player moves ships into a system that contains 1 or more of your structures, gain trade goods equal to the number of non-fighter ships that moved into that system.
+ID: absol_ers    Source: absol
+:cybernetic:Encrypted Trade Hub:edyn::DS:
+Requirements: :cybernetic::cybernetic:
+You may exhaust this card to allow a player to exchange 1 of their relics or agendas as part of a transaction. You always vote last during the agenda phase. When an outcome you voted for or predicted is resolved, each player who voted for that outcome gains 1 commodity.
+ID: dsedyny    Source: ds
+:cybernetic:Fabrication Grid:mortheus::DS:
+Requirements: :cybernetic::cybernetic:
+Each system that contains 1 or more of your ships and no planets gains PRODUCTION 2 as if it were a unit you control.
+ID: dsmorty    Source: ds
+:cybernetic:Hegemonic Trade Policy:Winnu:
+Requirements: :cybernetic::cybernetic:
+Exhaust this card when 1 or more of your units use PRODUCTION; swap the resource and influence values of 1 planet you control until the end of your turn.
+ID: htp    Source: base
+:cybernetic:Hegemonic Trade Policy:Winnu::Absol:
+Requirements: :cybernetic::cybernetic:
+During the Production step of your tactical actions, you may treat the resource value of any number of planets you control as if it were equal to its influence value instead.
+ID: absol_htp    Source: absol
+:cybernetic:Impressment Programs:dihmohn::DS:
+Requirements: :cybernetic::cybernetic:
+When you explore a planet, you may produce 1 ship in that planet's system. ACTION: Exhaust this card and 1 planet you control to explore that planet. [Note: this cannot produce ships if enemy ships are present]
+ID: dsdihmy    Source: ds
+:cybernetic:Impulse Core:Yin:
+Requirements: :cybernetic::cybernetic:
+At the start of a space combat, you may destroy 1 of your cruisers or destroyers in the active system to produce 1 hit against your opponent's ships; that hit must be assigned by your opponent to 1 of their non-fighters ships if able.
+ID: ic    Source: base
+:cybernetic:Impulse Core:Yin::Absol:
+Requirements: :cybernetic::cybernetic:
+ACTION: Exhaust this card, select a system and destroy any number of your cruisers or destroyers in adjacent systems. Generate 1 hit for each ship you destroyed; you opponent must assign those hits to their ships in the chosen system, and must assign them to non-fighter ships, if able.
+ID: absol_ic    Source: absol
+:cybernetic:Inheritance Systems:L1Z1X:
+Requirements: :cybernetic::cybernetic:
+You may exhaust this card and spend 2 resources when you research a technology; ignore all of that technology's prerequisites.
+ID: is    Source: base
+:cybernetic:Inheritance Systems:L1Z1X::IgnisAurora:
+Requirements: :cybernetic::cybernetic:
+ACTION: Exhaust this card and spend 6 resources to research a technology.
+ID: baldrick_is    Source: ignis_aurora
+:cybernetic:Inheritance Systems:L1Z1X::Absol:
+Requirements: :cybernetic::cybernetic:
+When you research a technology, you may exhaust this card to ignore all prerequisites on that technology.
+
+ACTION: You may exhaust this card and spend 1 command token from your strategy pool and 4 resources to research a technology.
+ID: absol_is    Source: absol
+:cybernetic:Krovoz Strike Teams:vaden::DS:
+Requirements: :cybernetic::cybernetic:
+After another player's unit uses SUSTAIN DAMAGE to cancel a hit produced by your units or abilities, you may exhaust this card to destroy that unit. After you produce 1 or more hits during a round of combat, you may spend 1 trade good to produce 1 additional hit.
+ID: dsvadey    Source: ds
+:cybernetic:Local Contracts:nokar::DS:
+Requirements: :cybernetic::cybernetic:
+During the action phase: You may exhaust this card to use the PRODUCTION ability of 1 of your units. Then, place 1 command token from your reinforcements in that unit's system.
+ID: dsnokay    Source: ds
+:cybernetic:Merged Replicators:bentor::DS:
+Requirements: :cybernetic::cybernetic:
+When 1 or more of your units use PRODUCTION, you may exhaust this card to increase the PRODUCTION value of 1 of those units to match the PRODUCTION value of the unit on the game board with the highest PRODUCTION value, or apply +2 to the total PRODUCTION value of those units.
+ID: dsbenty    Source: ds
+:cybernetic:Nullification Field:Xxcha::Absol:
+Requirements: :cybernetic::cybernetic:
+After another player activates a system that contains 1 or more of your ships, you may exhaust this card and spend 1 token from your strategy pool; immediately end that player's turn.
+ID: absol_nf    Source: absol
+:cybernetic:Nullification Field:Xxcha:
+Requirements: :cybernetic::cybernetic:
+After another player activates a system that contains 1 or more of your ships, you may exhaust this card and spend 1 token from your strategy pool; immediately end that player's turn.
+ID: nf    Source: base
+:cybernetic:Salvage Operations:Mentak::Absol:
+Requirements: :cybernetic::cybernetic:
+At the start of each space combat in systems that contain or are adjacent to your ships, gain 1 commodity.
+
+if you win a space combat, you may produce 1 ship of any type that was destroyed during that combat, and may spend commodities as resources.
+ID: absol_so    Source: absol
+:cybernetic:Salvage Operations:Mentak:
+Requirements: :cybernetic::cybernetic:
+After you win or lose a space combat, gain 1 trade good; if you won the combat, you may also produce 1 ship in that system of any ship type that was destroyed during the combat.
+ID: so    Source: base
+:cybernetic:Seeker Drones:kollecc::DS:
+Requirements: :cybernetic::cybernetic:
+ACTION: Exhaust this card to choose 1 of your neighbors that has 1 or more relic fragments. That player gains 2 trade goods and must give you 1 of those relic fragments of your choice. [Note the neighbor requirement]
+ID: dskolly    Source: ds
+:cybernetic:Sentient Datapool:augurs::DS:
+Requirements: :cybernetic::cybernetic:
+At the start of the status phase, you may spend 3 trade goods to research 1 technology.
+ID: dsauguy    Source: ds
+:cybernetic:Special Forces:WHbeta::KeleresPlus:
+Requirements: :cybernetic::cybernetic:
+At the start of a space combat in which you are the defender: You may exhaust this card and spend 1 command token from your strategy pool to force your opponent to declare a retreat.
+ID: specialforces    Source: keleresplus
+:cybernetic:Carrier Life Pods
+Requirements: :cybernetic::cybernetic::biotic:
+Each of your non-fighter ships without the capacity stat gain the capacity stat.
+Apply +1 to the capacity value to each of your units with capacity.
+ID: nf_clp    Source: nomadfalcon
+:cybernetic:Integrated Economy
+Requirements: :cybernetic::cybernetic::cybernetic:
+After you gain control of a planet, you may produce any number of units on that planet that have a combined cost equal to or less than that planet's resource value.
+ID: ie    Source: base
+:cybernetic:Integrated Economy:Absol:
+Requirements: :cybernetic::cybernetic::cybernetic:
+You may treat each planet with a planet trait that contains 1 or more of your structures as having any planet trait.
+
+Each planet you control gains the PRODUCTION 1 ability as if it were a unit.
+ID: absol_ie    Source: absol
+:cybernetic:Integrated Economy:MiltyMod:
+Requirements: :cybernetic::cybernetic::cybernetic:
+After you gain control of a planet, you may produce any number of units on that planet that have a combined cost equal or less than the sum of that planet's resource and influence values.
+ID: miltymod_ie    Source: miltymod
+:cybernetic:Integrated Economy:ProjectPie:
+Requirements: :cybernetic::cybernetic::cybernetic:
+When your perform a tacticle action: Treat each planet in the active system as if they are a unit with PRODUCTION X, where X is equal to the sum of the planet's resource and influence values. Planets granted PRODUCTION by this tech may only produce fighters or infantry,
+ID: pi_ie    Source: project_pi
+:cybernetic:Emergency Deployment:axis::DS:
+Requirements: :cybernetic::cybernetic::cybernetic:
+ACTION: Exhaust this card to place or move 1 of your space docks onto a planet you control.
+ID: dsaxisy    Source: ds
+:cybernetic:Mirror Computing:Mentak::Absol:
+Requirements: :cybernetic::cybernetic::cybernetic:
+When you spend trade goods, every 2 trade goods spent are worth 3 resources or influence instead of 2.
+ID: absol_mc    Source: absol
+:cybernetic:Mirror Computing:Mentak:
+Requirements: :cybernetic::cybernetic::cybernetic:
+When you spend trade goods, each trade good is worth 2 resources or influence instead of 1.
+ID: mc    Source: base
+:cybernetic:Quantum Datahub Node:Hacan:
+Requirements: :cybernetic::cybernetic::cybernetic:
+At the end of the strategy phase, you may spend 1 token from your strategy pool and give another player 3 of your trade goods. If you do, give 1 of your strategy cards to that player and take 1 of their strategy cards.
+ID: qdn    Source: base
+:cybernetic:Quantum Datahub Node:Hacan::Absol:
+Requirements: :cybernetic::cybernetic::cybernetic:
+When another player would choose a strategy card during the strategy phase, if you do not have a strategy card, you may exhaust this card, spend a token from your strategy pool, and give that player 1 trade good for each player that does not have a strategy card to choose your strategy card before them.
+ID: absol_qdn    Source: absol
+:cybernetic:Sanctification Field:zealots::DS:
+Requirements: :cybernetic::cybernetic::cybernetic:
+When you activate a system, or a system that contains 1 or more of your units is activated, you may choose 1 technology or non-fighter, non-structure unit upgrade technology another player controls; until the end of this tactical action, that card is treated as though it had no ability text.
+ID: dsrhody    Source: ds
+:cybernetic:Sappers:enclave::IgnisAurora:
+Requirements: :cybernetic::cybernetic::cybernetic:
+Secret
+ID: sap    Source: pbd2000
+:cybernetic:Special Clearances:CFrag::KeleresPlus:
+Requirements: :cybernetic::cybernetic::cybernetic:
+At the start of a player's turn, ou may spend 1 trade good or 1 commodity to allow that player to choose any number of laws in play. Those laws are treated as blank until the end of that player's turn.
+ID: specialclearances    Source: keleresplus
+:warfare:AI Development Algorithm
+Requirements: None
+When you research a unit upgrade technology, you may exhaust this card to ignore any 1 prerequisite. When 1 or more of your units use Production, you may exhaust this card to reduce the combined cost of the produced units by the number of unit upgrade technologies that you own.
+ID: aida    Source: pok
+:warfare:AI Development Algorithm:Absol:
+Requirements: None
+When you research a unit upgrade technology, you may exhaust this card to ignore any 1 prerequisite.
+
+When you pass, you may spend 6 influence to research a unit upgrade technology.
+ID: absol_aida    Source: absol
+:warfare:Plasma Scoring:IgnisAurora:
+Requirements: None
+When 1 or more of your units use Bombardment, Anti-Fighter Barrage, or Space Cannon, 1 of those units may roll 1 additional die.
+ID: baldrick_ps    Source: ignis_aurora
+:warfare:Plasma Scoring:ProjectPie:
+Requirements: None
+When 1 or more of your units make a roll for a unit ability, you may choose 1 of those units to roll 1 additional die.
+ID: pi_ps    Source: project_pi
+:warfare:Plasma Scoring:Absol:
+Requirements: None
+When 1 or more of your units use BOMBARDMENT or SPACE CANNON, 1 of those units may roll 1 additional die. When the result of your non-fighter ships' combat roll exceeds that ship's combat value by 3 or more, your opponent may not assign that hit to a fighter unless they first destroy 1 of their fighters in the active system.
+ID: absol_ps    Source: absol
+:warfare:Plasma Scoring
+Requirements: None
+When 1 or more of your units use Bombardment or Space Cannon, 1 of those units may roll 1 additional die.
+ID: ps    Source: base
+:warfare:Plasma Scoring:MiltyMod:
+Requirements: None
+When 1 or more of your units make a roll for a unit ability, you may choose 1 of those units to roll 1 additional die.
+ID: miltymod_ps    Source: miltymod
+:warfare:Graviton Laser Systems:ProjectPie:
+Requirements: :warfare:
+You may exhaust this card before 1 or more of your units use SPACE CANNON; hits produced by those units must be assigned to non-fighter ships if able. You may exhaust this card at the start of a space combat round; hits produced by your units this round must be assigned to non-fighter ships if able.
+ID: pi_gls    Source: project_pi
+:warfare:Magen Defence Grid:ProjectPie:
+Requirements: :warfare:
+After a player activates a system that contains a planet you control, each planet you control in that system gains the SPACE CANNON 6 ability as if it were a unit until the end of that player's turn.
+ID: pi_mdg    Source: project_pi
+:warfare:Magen Defense Grid:Absol:
+Requirements: :warfare:
+At the start of ground combat on a planet that contains 1 or more of your structures, you may produce 1 hit per structure and assign them to your opponent's ground forces.
+
+After you perform a tactical action, you may exhaust this card and spend 4 resources to place a structure on a planet you control in the active system.
+ID: absol_md    Source: absol
+:warfare:Magen Defense Grid
+Requirements: :warfare:
+Base: You may exhaust this card at the start of a round of ground combat on a planet that contains 1 or more of your units that have Planetary Shield; your opponent cannot make combat rolls this combat round. Omega: At the start of ground combat on a planet that contains 1 or more of your structures, you may produce 1 hit and assign it to 1 of your opponent's ground forces.
+ID: md    Source: base
+:warfare:Magen Defense Grid:MiltyMod:
+Requirements: :warfare:
+You may exhaust this card at the start of a round of ground combat on a planet you control; your opponent cannot make combat rolls during this combat round.
+ID: miltymod_md    Source: miltymod
+:warfare:Precision Targeting:IgnisAurora:
+Requirements: :warfare:
+At the start of a round of combat you may exhaust this card to cause your opponents' units participating in that combat that have Sustain Damage to become damaged.
+ID: precisiontargeting    Source: ignis_aurora
+:warfare:Self-Assembly Routines:Absol:
+Requirements: :warfare:
+When you produce a mech, you may produce 1 additional mech for free. This still counts against production limit.
+
+ACTION: Exhaust this card to produce 1 ship in any system that contains 1 of your space docks.
+ID: absol_sar    Source: absol
+:warfare:Self-Assembly Routines
+Requirements: :warfare:
+After 1 or more of your units use PRODUCTION, you may exhaust this card to place 1 mech from your reinforcements on a planet you control in that system. After 1 of your mechs is destroyed, gain 1 trade good.
+ID: sar    Source: pok
+:warfare:Dimensional Splicer:Creuss:
+Requirements: :warfare:
+At the start of space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit and assign it to 1 of your opponent's ships.
+ID: ds    Source: base
+:warfare:Dimensional Splicer:Creuss::Absol:
+Requirements: :warfare:
+When another player's ship with SUSTAIN DAMAGE moves through a wormhole into a system that contains your ships, that ship becomes damaged.
+
+At the start of a space combat in a system that contains a wormhole and 1 or more of your ships, you may produce 1 hit and assign it to 1 of your opponent's ships.
+ID: absol_ds    Source: absol
+:warfare:False Flag Operations:olradin::DS:
+Requirements: :warfare:
+At the start of your turn, you may exhaust this card and 1 planet you control to ready 1 non-home planet other than Mecatol Rex.
+ID: dsolrar    Source: ds
+:warfare:Scavanger Exos:vaylerian::DS:
+Requirements: :warfare:
+Once per action, after you win a ground combat, you may draw 1 action card.
+ID: dsvaylr    Source: ds
+:warfare:Shard Volley:zelian::DS:
+Requirements: :warfare:
+When 1 or more of your units produce 1 or more hits during a BOMBARDMENT roll against a planet, produce 1 additional hit for that roll.
+ID: dszelir    Source: ds
+:warfare:Supercharge:Naaz::Absol:
+Requirements: :warfare:
+At the start of a combat round, you may exhaust a relic fragment in your play area to apply +1 to the results of each of your units’ combat rolls during this combat round.
+ID: absol_sc    Source: absol
+:warfare:Supercharge:Naaz:
+Requirements: :warfare:
+At the start of a combat round, you may exhaust this card to apply +1 to the result of each of your unit's combat rolls during this combat round.
+ID: sc    Source: pok
+:warfare:Valkyrie Particle Weave:Sardakk::ProjectPie:
+Requirements: :warfare:
+After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit.
+ID: pi_vpw    Source: project_pi
+:warfare:Valkyrie Particle Weave:Sardakk::MiltyMod:
+Requirements: :warfare:
+After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit.
+ID: miltymod_vpw    Source: miltymod
+:warfare:Vortex:Cabal:
+Requirements: :warfare:
+ACTION: Exhaust this card to choose another player's non-structure unit in a system that is adjacent to 1 or more of your space docks. Capture 1 unit of that type from that player's reinforcements.
+ID: vtx    Source: pok
+:warfare:Vortex:Cabal::Absol:
+Requirements: :warfare:
+ACTION: Exhaust this card to choose another player's non-structure unit in a system that is adjacent to 1 or more of your space docks. Capture 1 unit of that type from that player's reinforcements.
+ID: absol_vtx    Source: absol
+:warfare::biotic:Bacterial Weapons Systems
+Requirements: :warfare::biotic:
+After 1 of your opponents ships are destroyed you may exhyast this card to destroy 2 infantry in the space area of the active system.
+This card counts as either a red or green prerequiste.
+ID: nf_bws    Source: nomadfalcon
+:warfare:Duranium Armor:MiltyMod:
+Requirements: :warfare::warfare:
+During each combat round, after you assign hits to your units, repair 1 of your participating damaged units that did not use SUSTAIN DAMAGE during this combat round.
+ID: miltymod_da    Source: miltymod
+:warfare:Duranium Armor
+Requirements: :warfare::warfare:
+During each combat round, after you assign hits to your units, repair 1 of your damaged units that did not use Sustain Damage during this combat round.
+ID: da    Source: base
+:warfare:Duranium Armor:ProjectPie:
+Requirements: :warfare::warfare:
+During each round of combat, after you assign hits to your units, repair one participating damaged units that did not use Sustain Damage during this combat round. You may exhaust this tech before assigning hits; Your units cannot be targeted by Direct Hit during this combat round.
+ID: pi_dur    Source: project_pi
+:warfare:Duranium Armor:Absol:
+Requirements: :warfare::warfare:
+Your ships can move into and through asteroid fields.
+
+During each combat round, after you assign hits to your units, repair 1 of your damaged units that did not use SUSTAIN DAMAGE during this combat round.
+ID: absol_da    Source: absol
+:warfare:The Changer of Ways:Flagshipping:
+Requirements: :warfare::warfare:
+At the start of any space combat, you may choose 1 participating unit with the SUSTAIN DAMAGE ability; repair or damage that unit.
+ID: CoW    Source: flagshipping
+:warfare:ATS Armaments:lanefir::DS:
+Requirements: :warfare::warfare:
+After you explore, or purge 1 or more relic fragments, place 1 commodity token on this card. At the start of a round of combat, remove any number of tokens from this card to reroll up to that many of your dice during this round of combat.
+ID: dslaner    Source: ds
+:warfare:Brood Pod:cheiran::DS:
+Requirements: :warfare::warfare:
+After another player activates a system that contains 1 of your structures, you may exhaust this card to produce 1 ship in the active system. For each of your structures in the active system, you may remove that unit from the game board to reduce the cost of the produced ship by 3.
+ID: dscheir    Source: ds
+:warfare:Deliverance Engine:kortali::DS:
+Requirements: :warfare::warfare:
+Once per space combat, after 1 of your non-fighter ships is destroyed, you may produce 1 hit and assign it to 1 of your opponent's non-carrier ships.
+ID: dskortr    Source: ds
+:warfare:Double Barrels:enclave::IgnisAurora:
+Requirements: :warfare::warfare:
+Secret
+ID: doba    Source: pbd2000
+:warfare:Emergency Mobilization Protocols:celdauri::DS:
+Requirements: :warfare::warfare:
+At the end of your turn, you may exhaust this card and spend 1 token from your strategy pool to remove a command token from a system that contains 1 or more of your space docks.
+ID: dsceldr    Source: ds
+:warfare:Fractal Plating:mortheus::DS:
+Requirements: :warfare::warfare:
+After a unit you control in a system is destroyed, you may exhaust this card to place 1 unit of that type from your reinforcements in the space area of a system adjacent to that system that contains 1 or more of your ships.
+ID: dsmortr    Source: ds
+:warfare:Leviathan Eruptor:Cabal::IgnisAurora:
+Requirements: :warfare::warfare:
+At the end of a combat round, you may exhaust this card to return 1 captured unit and place a unit of the same type from your reinforcements in the active system.
+ID: leviathaneruptor    Source: ignis_aurora
+:warfare:Magmus Reactor:Muaat::Absol:
+Requirements: :warfare::warfare:
+Your ships can move into supernovas.
+
+Each supernova that contains 1 or more of your units gains the PRODUCTION 5 ability as if it were 1 of your units.
+ID: absol_mr    Source: absol
+:warfare:Magmus Reactor:Muaat:
+Requirements: :warfare::warfare:
+Your ships can move into supernovas. Each supernova that contains 1 or more of your units gains the PRODUCTION 5 ability as if it were 1 of your units.
+ID: mr    Source: base
+:warfare:Magmus Reactor:Muaat::MiltyMod:
+Requirements: :warfare::warfare:
+Your ships can move into supernovas.
+
+After you place 1 or more units in a system that either contains a war sun or is adjacent to a supernova, gain 1 trade good.
+ID: miltymod_mr    Source: miltymod
+:warfare:Non-Euclidean Shielding:Letnev:
+Requirements: :warfare::warfare:
+When 1 of your units uses Sustain Damage, cancel 2 hits instead of 1.
+ID: nes    Source: base
+:warfare:Non-Euclidean Shielding:Letnev::Absol:
+Requirements: :warfare::warfare:
+When 1 of your units uses SUSTAIN DAMAGE, cancel 2 hits instead of 1.
+ID: absol_nes    Source: absol
+:warfare:Orbital Defense Grid:mirveda::DS:
+Requirements: :warfare::warfare:
+At the start of invasion, choose up to 1 unit you control in the active system; that unit gains PLANETARY SHIELD. When a player commits a unit to land on a planet you control, you may exhaust this card to destroy that unit.
+ID: dsmirvr    Source: ds
+:warfare:Seidr Project:veldyr::DS:
+Requirements: :warfare::warfare:
+At the end of each round of space combat, you may use the SPACE CANNON of 1 of your units in the active system against your opponent's ships, without rolling additional dice.
+ID: dsveldr    Source: ds
+:warfare:Valkyrie Particle Weave:Sardakk:
+Requirements: :warfare::warfare:
+After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit.
+ID: vpw    Source: base
+:warfare:Valkyrie Particle Weave:Sardakk::Absol:
+Requirements: :warfare::warfare:
+When you commit ground forces to a planet from 1 or more other planets, you may commit 2 ground forces from each planet.
+
+After making combat rolls during a round of ground combat, if your opponent produced 1 or more hits, you produce 1 additional hit.
+ID: absol_vpw    Source: absol
+:warfare:Assault Cannon:Absol:
+Requirements: :warfare::warfare::warfare:
+At the start of space combat, your opponent must destroy 1 of their non-fighter ships for every 3 of your non-fighter, non-Infantry ships in the active system.
+ID: absol_asc    Source: absol
+:warfare:Assault Cannon
+Requirements: :warfare::warfare::warfare:
+At the start of a space combat in a system that contains 3 or more of your non-fighter ships, your opponent must destroy 1 of their non-fighter ships.
+ID: asc    Source: base
+:warfare:Assault Laser
+Requirements: :warfare::warfare::cybernetic:
+At the start of a combat you are participating in you may exhaust this card to produce 2 hits against your opponent.
+After 1 or more of your non-fighter non-infantry unit is destroyed roll 1 die for 1 of the destroyed unit on a result of 6 or higher produce 1 hit against your opponent.
+ID: nf_al    Source: nomadfalcon
+:warfare:Cluster Munitions:terminator::IgnisAurora:
+Requirements: :warfare::warfare::warfare:
+Secret
+ID: clmu    Source: pbd2000
+:warfare:Omniscience Field:kolume::DS:
+Requirements: :warfare::warfare::warfare:
+After a system is activated, you may exhaust this card to choose 1 player. Apply +1 or -1 to all rolls that player makes during this tactical action.
+ID: dskolur    Source: ds
+:biotic:Bio-Stims:IgnisAurora:
+Requirements: None
+You may exhaust this card at the end of your turn to ready 1 of your planets that has a technology specialty or 1 of your other technologies.
+ID: baldrick_bs    Source: ignis_aurora
+:biotic:Neural Motivator:IgnisAurora:
+Requirements: None
+ACTION: Exhaust this card to draw one action card.
+ID: baldrick_nm    Source: ignis_aurora
+:biotic:Neural Motivator:Absol:
+Requirements: None
+The maximum number of action cards you can have in your hand is increased by 3
+
+At the end of your turn, you may exhaust this card to draw 2 action cards.
+ID: absol_nm    Source: absol
+:biotic:Neural Motivator
+Requirements: None
+During the status phase, draw 2 action cards instead of 1.
+ID: nm    Source: base
+:biotic:Neural Motivator:MiltyMod:
+Requirements: None
+At the end of your turn, you may exhaust this card to draw 1 action card.
+ID: miltymod_nm    Source: miltymod
+:biotic:Neural Motivator:ProjectPie:
+Requirements: None
+At the end of your turn, you may exhaust this card to draw 1 action card.
+ID: pi_nm    Source: project_pi
+:biotic:Psychoarchaeology:Absol:
+Requirements: None
+You can use technology specialties on planets you control without exhausting them, even if those planets are exhausted.
+At the end of your turn, you may discard 2 action cards to explore a readied planet you control.
+ID: absol_pa    Source: absol
+:biotic:Psychoarchaeology
+Requirements: None
+You can use technology specialties on planets you control without exhausting them, even if those planets are exhausted. During the Action Phase, you can exhaust planets you control that have technology specialties to gain 1 Trade Good.
+ID: pa    Source: pok
+:biotic:Psychoarchaeology:ProjectPie:
+Requirements: None
+You may exhaust this card to use thechnology specialties on planets you control without exhausting them, even if those planets are exhausted. You may exhaust this card at the end of your turn to ready 1 of your planets that has a technology specialty.
+ID: pi_psy    Source: project_pi
+:biotic:Bio-Stems:ProjectPie:
+Requirements: :biotic:
+You may exhaust this card at the end of your turn to ready 1 of your other technologies.
+ID: pi_bs    Source: project_pi
+:biotic:Bio-Stims
+Requirements: :biotic:
+You may exhaust this card at the end of your turn to ready 1 of your planets that has a technology specialty or 1 of your other technologies.
+ID: bs    Source: pok
+:biotic:Bio-stims:Absol:
+Requirements: :biotic:
+You may exhaust this card at the end of your turn to ready 1 of your planets or 1 of your other technologies.
+ID: absol_bs    Source: absol
+:biotic:Dacxive Animators:MiltyMod:
+Requirements: :biotic:
+After 1 of your ground forces is destroyed during ground combat, you may place that unit on this card.
+
+At the end of your turn, you may exhaust this card to place any number of units from it onto a planet you control.
+ID: miltymod_dxa    Source: miltymod
+:biotic:Dacxive Animators
+Requirements: :biotic:
+After you win a ground combat, you may place 1 infantry from your reinforcements on that planet.
+ID: dxa    Source: base
+:biotic:Dacxive Animators:Absol:
+Requirements: :biotic:
+You may exhaust this card during the action phase to place 2 infantry from your reinforcements on a planet that contains your ground forces.
+
+After you win a ground combat, you may place 1 infantry from your reinforcements on that planet.
+ID: absol_dxa    Source: absol
+:biotic:Dacxive Animators:ProjectPie:
+Requirements: :biotic:
+After 1 of your ground forces is destroyed during combat, you may place that unit on this card. At the end of your turn, you may exhaust this card to place any number of units from it onto a planet you control.
+ID: pi_da    Source: project_pi
+:biotic:Dacxive Animators:IgnisAurora:
+Requirements: :biotic:
+At the start of a round of ground combat, you may exhaust this card. If you do, for each infantry destroyed in that combat round place an infantry token on this card. At the end of the combat round, place 1 infantry from your reinforcements on the planet for each token on this card.
+ID: baldrick_dxa    Source: ignis_aurora
+:biotic:Hyper Metabolism:IgnisAurora:
+Requirements: :biotic:
+You may exhaust this card at the end of your turn to gain one command token.
+ID: baldrick_hm    Source: ignis_aurora
+:biotic:Bioplasmosis:Arborec::ProjectPie:
+Requirements: :biotic:
+ACTION: You may exhaust this card to remove any number of ground forces from the board and place them on one or more planets you control in the same or adjacent system.
+ID: pi_bp    Source: project_pi
+:biotic:Bioplasmosis:Arborec::IgnisAurora:
+Requirements: :biotic:
+At the start of the status phase, you may choose 1 Bioplasmosis attachment and place it on a planet you control.
+ID: baldrick_bio    Source: ignis_aurora
+:biotic:Bioplasmosis:Arborec::MiltyMod:
+Requirements: :biotic:
+ACTION: You may exhaust this card to remove any number of ground forces from planets you control and place them on 1 or more planets you control in the same or adjacent systems.
+ID: miltymod_bio    Source: miltymod
+:biotic:Broker Network:bentor::DS:
+Requirements: :biotic:
+Each planet you control that has a technology specialty or an attachment gains the PRODUCTION 1 ability as if it were a unit.
+ID: dsbentg    Source: ds
+:biotic:Envoy Network:freesystems::DS:
+Requirements: :biotic:
+At the start of the agenda phase, you may choose and exhaust 1 cultural, 1 hazardous, and 1 industrial planet. When you cast 1 or more votes, if you exhaust at least 1 cultural, 1 hazardous, and 1 industrial planet to cast votes, you may cast 4 additional votes.
+ID: dsfreeg    Source: ds
+:biotic:Genetic Recombination:Mahact:
+Requirements: :biotic:
+You may exhaust this card before a player casts votes; that player must cast at least 1 vote for an outcome of your choice or remove 1 token from their fleet pool and return it to their reinforcements.
+ID: gr    Source: pok
+:biotic:Genetic Recombination:Mahact::Absol:
+Requirements: :biotic:
+When you would cast votes during the agenda phase, you may exhaust 1 planet controlled by each other player whose command tokens are on the Mahact player’s command sheet. You may cast votes from these planets as if you controlled them, even if you would otherwise be prevented from voting.
+ID: absol_gr    Source: absol
+:biotic:Genetic Recombination:Mahact::ProjectPie:
+Requirements: :biotic:
+You may exhaust this card before another player casts votes; exhaust 3 of that players' planets to cast votes for the outcome of your choice. That player cannot exhaust any other planets on that agenda. If this card is not exhausted, you may cast 2 additional votes for each player that has abstained.
+ID: pi_gr    Source: project_pi
+:biotic:Instinct Training:Xxcha:
+Requirements: :biotic:
+You may exhaust this card and spend 1 token from your strategy pool when another player plays an action card; cancel that action card.
+ID: it    Source: base
+:biotic:Instinct Training:Xxcha::ProjectPie:
+Requirements: :biotic:
+You may exhasut this card when another player plays an action card; cancel that action card.
+ID: pi_it    Source: project_pi
+:biotic:Networked Command:ghoti::DS:
+Requirements: :biotic:
+Up to 3 ships in your home system do not count against your fleet pool. When you cast 1 or more votes, you may exhaust this card to cast an additional number of votes equal to the number of command tokens in your fleet pool.
+ID: dsghotg    Source: ds
+:biotic:Production Biomes:Hacan::ProjectPie:
+Requirements: :biotic:
+ACTION: Exhaust this card to gain 3 trade goods and choose 1 other player; that player gains 1 trade good.
+ID: pi_pb    Source: project_pi
+:biotic:Transparasteel Plating:Yssaril::ProjectPie:
+Requirements: :biotic:
+During your turn of the action phase, players that have passed cannot play action cards, exhaust technology cards, or use the SPACE CANNON ability of their units against your units.
+ID: pi_tp    Source: project_pi
+:biotic:Transparasteel Plating:Yssaril::Absol:
+Requirements: :biotic:
+During your turn of the action phase, players that have passed cannot play action cards.
+
+During combat, you may discard 2 action cards from your hand to cancel an action card played by your opponent.
+ID: absol_tp    Source: absol
+:biotic:Transparasteel Plating:Yssaril:
+Requirements: :biotic:
+During your turn of the action phase, players that have passed cannot play action cards.
+ID: tp    Source: base
+:biotic:Voidwatch:Empyrean::Absol:
+Requirements: :biotic:
+At any time, you may look at the top card of the frontier exploration deck.
+
+After a player moves ships into a system that contains 1 or more of your units, they must give you 1 promissory note from their hand, if able.
+ID: absol_vw    Source: absol
+:biotic:Voidwatch:Empyrean:
+Requirements: :biotic:
+After a player moves ships into a system that contains 1 or more of your units, they must give you 1 promissory note from their hand, if able.
+ID: vw    Source: pok
+:biotic:Yin Spinner:Yin::MiltyMod:
+Requirements: :biotic:
+After you produce units, place up to 2 infantry from your reinforcements on any planet you control or in any space area that contains 1 or more of your ships.
+ID: miltymod_yso    Source: miltymod
+:biotic:Zhrgar Stimulants:kjalengard::DS:
+Requirements: :biotic:
+At the start of combat in a system that contains a Glory token, gain 1 trade good. After a player rolls combat dice, you may exhaust this card to allow that player to reroll any number of those dice.
+ID: dskjalg    Source: ds
+:biotic:Fibrile Realignment:IgnisAurora:
+Requirements: :biotic::biotic:
+ACTION: Exhaust this card to discard either one secret objective or one action card. Then, draw a new card of the same type.
+ID: fabrilerealignment    Source: ignis_aurora
+:biotic::propulsion:Gene Data Network
+Requirements: :biotic::propulsion:
+At the start of the status phase you may place 1 infantry on each planet with 1 or more structures.
+This card counts as either a green or blue prerequiste.
+ID: nf_gdn    Source: nomadfalcon
+:biotic:Hyper Metabolism
+Requirements: :biotic::biotic:
+During the status phase, gain 3 command tokens instead of 2.
+ID: hm    Source: base
+:biotic:Hyper Metabolism:Absol:
+Requirements: :biotic::biotic:
+You may exhaust this card at the end of your turn to gain 1 command token or spend 1 command token from your strategy pool to ready an agent you control.
+ID: absol_hm    Source: absol
+:biotic:Hyper Metabolism:MiltyMod:
+Requirements: :biotic::biotic:
+At the end of your turn, you may exhaust this card to gain 1 command token.
+ID: miltymod_hm    Source: miltymod
+:biotic:Hyper Motabolism:ProjectPie:
+Requirements: :biotic::biotic:
+At the end of your turn, you may exhaust this card to gain 1 command token.
+ID: pi_hm    Source: project_pi
+:biotic::warfare:Plasma Radial Shielding
+Requirements: :warfare::biotic:
+If you win a combat in a system with 3 or more non-fighter ships you may move 1 ship with a cost of 4 or fewer out of the active system into an adjacent system with any of your ships.
+This card counts as either a red or green prerequiste.
+ID: nf_prs    Source: nomadfalcon
+:biotic:Applied Biothermics:kolume::DS:
+Requirements: :biotic::biotic:
+When you pass, you may gain 1 commodity for each other player who has already passed. ACTION: Exhaust this card.
+ID: dskolug    Source: ds
+:biotic:Bioplasmosis:Arborec:
+Requirements: :biotic::biotic:
+At the end of the status phase, you may remove any number of infantry from planets you control and place them on 1 or more planets you control in the same or adjacent systems.
+ID: bio    Source: base
+:biotic:Bioplasmosis:Arborec::Absol:
+Requirements: :biotic::biotic:
+When you produce units in a system, you may exhaust this card and reduce the combined PRODUCTION value of your units in that system by up to half (rounded down) to reduce the combined cost of the produced units by the same amount.
+ID: absol_bio    Source: absol
+:biotic:Blackmail Programs:florzen::DS:
+Requirements: :biotic::biotic:
+When a player would perform a strategic action, you may exhaust this card and spend 1 token from your strategy pool to end that player's turn; the strategic action is not resolved and the strategy card is not exhausted.
+ID: dsflorg    Source: ds
+:biotic:Chaos Mapping:Saar::ProjectPie:
+Requirements: :propulsion::propulsion:
+Other players cannon move into asteroid fields that contain 1 or more of your units. At the start of your turn during the action phase, you may produce 1 unit in an asteroid field that contains at least 1 of your units that has PRODUCTION.
+ID: pi_cm    Source: project_pi
+:biotic:Ciqineq Receptors:qulane::IgnisAurora:
+Requirements: :biotic::biotic:
+Action: Exhaust this card to draw 2 event cards. Place 1 into your hand and shuffle the other back into the deck.
+ID: ciqineqreceptors    Source: ignis_aurora
+:biotic:Indoctrination Teams:blex::DS:
+Requirements: :biotic::biotic:
+During the agenda phase, after an outcome you voted for is resolved, place 2 infantry from your reinforcements on a planet you control.
+ID: dskyrog    Source: ds
+:biotic:Instinct Training:Xxcha::Absol:
+Requirements: :biotic::biotic:
+You may spend 1 token from your strategy pool when one of your neighbors plays an action card; cancel that action card.
+ID: absol_it    Source: absol
+:biotic:Instinct Training:Xxcha::MiltyMod:
+Requirements: :biotic::biotic:
+You may exhaust this card when another player plays an action card; cancel that action card.
+ID: miltymod_it    Source: miltymod
+:biotic:Production Biomes:Hacan::Absol:
+Requirements: :biotic::biotic:
+When you give another player 1 or more commodities, they gain an equal number of trade goods.
+ID: absol_pm    Source: absol
+:biotic:Production Biomes:Hacan:
+Requirements: :biotic::biotic:
+ACTION: Exhaust this card and spend 1 token from your strategy pool to gain 4 trade goods and choose 1 other player; that player gains 2 trade goods.
+ID: pm    Source: base
+:biotic:Production Biomes:Hacan::MiltyMod:
+Requirements: :biotic::biotic:
+Exhaust this card to gain 3 trade goods and choose 1 other player; that player gains 2 trade goods.
+ID: miltymod_pm    Source: miltymod
+:biotic:Psychoactive Armaments:mykomentori::DS:
+Requirements: :biotic::biotic:
+After your opponent makes a combat roll, you may exhaust this card. If you do, for each of their units that did not produce a hit, you may reroll that unit's combat roll; any hits that roll produces are produced against your opponent's units instead.
+ID: dsmykog    Source: ds
+:biotic:Stone's Embrace:khrask::DS:
+Requirements: :biotic::biotic:
+When you would spend a token from your strategy pool, you may exhaust 1 planet you control to spend 1 token from your reinforcements instead.
+ID: dskhrag    Source: ds
+:biotic:Tempest Drive:kortali::DS:
+Requirements: :biotic::biotic:
+After you win a combat in a system, you may exhaust this card to remove 1 command token from that system.
+ID: dskortg    Source: ds
+:biotic:Yin Spinner:Yin::Absol:
+Requirements: :biotic::biotic:
+After you produce units, place up to 2 infantry from your reinforcements on any planet you control or in any space area that contains 1 or more of your ships.
+ID: absol_yso    Source: absol
+:biotic:Yin Spinner Omega:Yin:
+Requirements: :biotic::biotic:
+After you produce units, place up to 2 infantry from your reinforcements on any planet you control or in any space area that contains 1 or more of your ships.
+ID: yso    Source: base
+:biotic:Bio-Redesign Systems
+Requirements: :biotic::biotic::warfare:
+After the move ships step of the tactical action if you have ships in the active system you may exhaust this card to remove 1 of your opponents ships in the active system and place a matching unit from your reinforcements in the active system.
+ID: nf_brs    Source: nomadfalcon
+:biotic:X-89 Bacterial Weapon:MiltyMod:
+Requirements: :biotic::biotic::biotic:
+After 1 or more of your units use BOMBARDMENT against a planet, if at least 1 hit was produced, you may exhaust this card; if you do, destroy all other player's ground forces on that planet.
+ID: miltymod_x89    Source: miltymod
+:biotic:X-89 Bacterial Weapon
+Requirements: :biotic::biotic::biotic:
+After 1 or more of your units use BOMBARDMENT against a planet, if at least 1 of your opponent's infantry was destroyed, you may destroy all of your opponent's infantry on that planet.
+ID: x89    Source: base
+:biotic:X-89 Bacterial Weapon:Absol:
+Requirements: :biotic::biotic::biotic:
+When your units use BOMBARDMENT, you may assign the first hit generated to all ground forces on the planet.
+
+At the start of a round of ground combat on a planet you control, you may exhaust this card to destroy all ground forces on the planet.
+ID: absol_x89    Source: absol
+:biotic:X-89 Bacterial Weapon:IgnisAurora:
+Requirements: :biotic::biotic::biotic:
+After the space cannon defense step of a planetary invasion, you may exhaust this card to destroy all of your opponent's infantry on that planet. Then, roll 1 die for each of your infantry on that planet. For each result of 6 or greater, destroy 1 of those units.
+ID: baldrick_x89    Source: ignis_aurora
+:biotic:X-89 Bacterial Weapon:ProjectPie:
+Requirements: :biotic::biotic::biotic:
+At the start of your tuen, exhaust this card and remove one of your structures from the board to choose a planet controlled by another player that is in or adjacent to a system where you have ships. Destroy all ground forces on that planet.
+ID: pi_x89    Source: project_pi
+:biotic:Guild Fund:Industrial::KeleresPlus:
+Requirements: :biotic::biotic::biotic:
+After you resolve the primary ability of a strategy card, you may resolve the secondary ability of that strategy card.
+When you would spend a command token, you may exhaust this card to spend 1 token from your reinforcements instead.
+ID: guildfund    Source: keleresplus
+:biotic:Mageon Implants:Yssaril::Absol:
+Requirements: :biotic::biotic::biotic:
+ACTION: Exhaust this card to look at another player's hand of action cards. If they have 5 or more action cards in their hand, choose 1 of those cards and add it to your hand.
+ID: absol_mi    Source: absol
+:biotic:Mageon Implants:Yssaril:
+Requirements: :biotic::biotic::biotic:
+ACTION: Exhaust this card to look at another player's hand of action cards. Choose 1 of those cards and add it to your hand.
+ID: mi    Source: base
+:biotic:Neuroglaive:Naalu::Absol:
+Requirements: :biotic::biotic::biotic:
+After another player activates a system that contains 1 or more of your ships, you may force that player to remove 1 token from their fleet pool and return it to their reinforcements.
+
+During combat, when your opponent plays an action card, produce 1 hit; your opponent must assign it to 1 of their ships.
+ID: absol_ng    Source: absol
+:biotic:Neuroglaive:Naalu:
+Requirements: :biotic::biotic::biotic:
+After another player activates a system that contains 1 or more of your ships, that player removes 1 token from their fleet pool and returns it to their reinforcements.
+ID: ng    Source: base
+:biotic:Pre-Fab Archologies:Naaz::Absol:
+Requirements: :biotic::biotic::biotic:
+After you explore a planet, ready that planet.
+ID: absol_pfa    Source: absol
+:biotic:Pre-Fab Arcologies:Naaz:
+Requirements: :biotic::biotic::biotic:
+After you explore a planet, ready that planet.
+ID: pfa    Source: pok
+:biotic:Psychographics:augurs::DS:
+Requirements: :biotic::biotic::biotic:
+During the status phase, you may score 1 additional public objective instead of a secret objective.
+ID: dsaugug    Source: ds
+:biotic:Unity Algorithm:edyn::DS:
+Requirements: :biotic::biotic::biotic:
+Once per agenda phase, after an agenda is revealed, you may predict aloud an outcome of that agenda. If your prediction is correct, you may score 1 public objective if you fulfill its requirements; each other player who voted for that outcome draws 1 secret objective.
+ID: dsedyng    Source: ds
+:biotic:War Song Implants:ghemina::DS:
+Requirements: :biotic::biotic::biotic:
+After you win a space combat, you may ready 1 planet you control.
+ID: dsghemg    Source: ds
+:UnitUpgradeTech:Infantry II:IgnisAurora:
+Requirements: :biotic:
+Cost 1(x2), Combat 7. You may produce 1 additional infantry for their cost. These infantry do not count against your production limit.
+ID: baldrick_inf2    Source: ignis_aurora
+:UnitUpgradeTech:Crimson Legionnaire II:Mahact::IgnisAurora:
+Requirements: :biotic:
+Cost 1(x2), Combat 7. After this unit is destroyed, gain 1 commodity or convert 1 of your commodities to a trade good. You may produce 1 additional infantry for their cost. These infantry do not count against your production limit.
+ID: baldrick_cl2    Source: ignis_aurora
+:UnitUpgradeTech:Gjen Specter II:qulane::IgnisAurora:
+Requirements: :biotic:
+Cost 1 (x2) Combat: 7 This unit does not count against capacity. Up to 4 of this unit can be transported on each non-fighter ship. At the start of a space combat, you may remove up to 3 infantry from the space area of the active system. For each 1 that you remove, your opponent must assign 1 hit to their ships.
+ID: gjenspecterii    Source: ignis_aurora
+:UnitUpgradeTech:Spec Ops II:Sol::IgnisAurora:
+Requirements: :biotic:
+You may produce 1 additional infantry for their cost. These infantry do not count against your production limit.
+ID: baldrick_so2    Source: ignis_aurora
+:UnitUpgradeTech:Carrier II:MiltyMod:
+Requirements: :biotic::propulsion:
+COST 3; COMBAT 9; MOVE 2; CAPACITY 6
+ID: miltymod_cv2    Source: miltymod
+:UnitUpgradeTech:Carrier II
+Requirements: :propulsion::propulsion:
+Cost 3, Combat 9, Move 2, Capacity 6
+ID: cv2    Source: base
+:UnitUpgradeTech:Carrier II:Absol:
+Requirements: :propulsion::propulsion:
+COST 3; COMBAT 9; MOVE 2; CAPACITY 6
+ID: absol_cv2    Source: absol
 :UnitUpgradeTech:Carrier II:IgnisAurora:
 Requirements: :biotic::propulsion:
 Cost 3, Combat 9, Move 2, Capacity 6
@@ -44,3 +1203,525 @@ When this unit generates hits on rolls based on its combat value, it generates 1
 
 ANTI-FIGHTER BARRAGE 6(x3)
 ID: absol_dd2    Source: absol
+:UnitUpgradeTech:Destroyer II
+Requirements: :warfare::warfare:
+Cost 1, Combat 8, Move 2, ANTI-FIGHTER BARRAGE 6(x3)
+ID: dd2    Source: base
+:UnitUpgradeTech:Fighter II:Absol:
+Requirements: :propulsion::biotic:
+COST: 1(x2); COMBAT 8; MOVE 2
+
+This unit may move without being transported. Fighters in excess of your ships' capacity count against your fleet pool.
+ID: absol_ff2    Source: absol
+:UnitUpgradeTech:Fighter II:IgnisAurora:
+Requirements: :propulsion::cybernetic:
+Cost 1(x2), Combat 8, Move 2. This unit may move without being transported. Fighters in excess of your ships' capacity count against your fleet pool.
+ID: baldrick_ff2    Source: ignis_aurora
+:UnitUpgradeTech:Fighter II:ProjectPie:
+Requirements: :propulsion::cybernetic:
+Cost 1 (x2), Combat 8, Move 2. This unit may move wihtout being transported. Fighters in excess of your ship's capacity count against your fleet pool.
+ID: pi_ff2    Source: project_pi
+:UnitUpgradeTech:Fighter II:MiltyMod:
+Requirements: :propulsion::cybernetic:
+COST: 1(x2); COMBAT 8; MOVE 2
+
+This unit may move without being transported. Fighters in excess of your ships' capacity count against your fleet pool.
+ID: miltymod_ff2    Source: miltymod
+:UnitUpgradeTech:Fighter II
+Requirements: :biotic::propulsion:
+Cost 1(x2), Combat 8, Move 2. This unit may move without being transported. Fighters in excess of your ships' capacity count against your fleet pool.
+ID: ff2    Source: base
+:UnitUpgradeTech:Infantry II
+Requirements: :biotic::biotic:
+Cost 1(x2), Combat 7. After this unit is destroyed, roll 1 die. If the result is 6 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home.
+ID: inf2    Source: base
+:UnitUpgradeTech:Infantry II:Absol:
+Requirements: :biotic::biotic:
+COST: 1(x2); COMBAT 7
+
+After this unit is destroyed, roll 1 die. If the result is 6 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home system.
+ID: absol_inf2    Source: absol
+:UnitUpgradeTech:Infantry II:MiltyMod:
+Requirements: :biotic::biotic:
+COST: 1(x2); COMBAT 7
+
+When you gain control of a planet, if you have more infantry on that planet than that planet's resource value, gain that planet readied.
+ID: miltymod_inf2    Source: miltymod
+:UnitUpgradeTech:Infantry II:ProjectPie:
+Requirements: :biotic::biotic:
+Cost 1 (x2), Combat 7. When you gain control of a planet, if the number of infantry you have on the planet is greater than the planet's resource value, gain that planet readied.
+ID: pi_inf2    Source: project_pi
+:UnitUpgradeTech:PDS II:Absol:
+Requirements: :cybernetic::warfare:
+You may use this unit's SPACE CANNON against ships that are adjacent to this unit's system.
+
+PLANETARY SHIELD; SPACE CANNON 5
+ID: absol_pds2    Source: absol
+:UnitUpgradeTech:PDS II:IgnisAurora:
+Requirements: :warfare::cybernetic:
+PLANETARY SHIELD, DEEP SPACE CANNON 6 You may use this unit's Space Cannon against ships that are adjacent to this unit's system.
+When your units use Space Cannon, at least half of the hits produced by those units (rounded up) must be assigned to non-fighter ships if able.
+ID: baldrick_pds2    Source: ignis_aurora
+:UnitUpgradeTech:PDS II
+Requirements: :warfare::cybernetic:
+PLANETARY SHIELD, DEEP SPACE CANNON 5
+ID: pds2    Source: base
+:UnitUpgradeTech:Space Dock II
+Requirements: :cybernetic::cybernetic:
+This unit's PRODUCTION value is equal to 4 more than the resource value of this planet. Up to 3 fighters in this system do not count against your ships' capacity. PRODUCTION X
+ID: sd2    Source: base
+:UnitUpgradeTech:Space Dock II:Absol:
+Requirements: :cybernetic::cybernetic:
+This unit's PRODUCTION value is equal to 4 more than the resource value of this planet.
+
+Up to 5 fighters in this system do not count against your ships' capacity. 1 non-fighter ship in this system does not count against your fleet pool.
+
+PRODUCTION X
+ID: absol_sd2    Source: absol
+:UnitUpgradeTech:Space Dock II:IgnisAurora:
+Requirements: :cybernetic::cybernetic:
+This unit's PRODUCTION value is equal to 5 more than the resource or influence value of this planet. Up to 6 fighters in this system do not count against your ships' capacity. PRODUCTION X
+ID: baldrick_sd2    Source: ignis_aurora
+:UnitUpgradeTech:Space Dock II:ProjectPie:
+Requirements: :cybernetic::cybernetic:
+PRODUCTION X. This unit's PRODUCTION value is equal to 5 more than the resource value of this planet, Up to 6 fighters in this system do not count against your ship's capacity. When you use this unit's PRODUCTION ability, you may place the produced units on any planet in this system.
+ID: pi_sd2    Source: project_pi
+:UnitUpgradeTech:Space Dock II:MiltyMod:
+Requirements: :cybernetic::cybernetic:
+This unit's Production value is equal to 5 more than the resource value of this planet.
+
+Up to 5 fighters in this system do not count against your ships' capacity.
+
+When you use this unit's PRODUCTION ability, you may place the produced units on any planet in this system.
+
+PRODUCTION X
+ID: miltymod_sd2    Source: miltymod
+:UnitUpgradeTech:Advacned Carrier II:Sol::ProjectPie:
+Requirements: :biotic::propulsion:
+Cost 3, Combat 9, Move 2, Capacity 8, SUSTAIN DAMANGE.
+ID: pi_ac2    Source: project_pi
+:UnitUpgradeTech:Advanced Carrier II:Sol:
+Requirements: :propulsion::propulsion:
+Cost 3, Combat 9, Move 2, Capacity 8, SUSTAIN DAMAGE
+ID: ac2    Source: base
+:UnitUpgradeTech:Advanced Carrier II:Sol::Absol:
+Requirements: :propulsion::propulsion:
+COST 3; COMBAT 9; MOVE 2; CAPACITY 8
+
+SUSTAIN DAMAGE
+ID: absol_ac2    Source: absol
+:UnitUpgradeTech:Advanced Carrier II:Sol::IgnisAurora:
+Requirements: :biotic::propulsion:
+Cost 3, Combat 9, Move 2, Capacity 8, SUSTAIN DAMAGE
+ID: baldrick_ac2    Source: ignis_aurora
+:UnitUpgradeTech:Advanced Carrier II:Sol::MiltyMod:
+Requirements: :biotic::propulsion:
+COST 3; COMBAT 9; MOVE 2; CAPACITY 8
+
+SUSTAIN DAMAGE
+ID: miltymod_ac2    Source: miltymod
+:UnitUpgradeTech:Blockade Runner II:tnelis::DS:
+Requirements: :warfare::warfare:
+This ship can move through systems that contain other players' ships. 1, 8, 2; ANTI-FIGHTER BARRAGE 6(x4)
+ID: dstneldd    Source: ds
+:UnitUpgradeTech:Combat Transport II:ghemina::DS:
+Requirements: :propulsion::propulsion:
+You may reroll 1 of your unit's combat dice during each round of ground combat on a planet in this system that contains 2 or fewer of your infantry. Cost 3, Combat 9, Move 2, Capacity 6
+ID: dsghemcv    Source: ds
+:UnitUpgradeTech:Corsair II:florzen::DS:
+Requirements: :propulsion::biotic:
+This unit may move without being transported. Fighters in excess of your ships' capacity count against your fleet pool. Cost 1(x2), Combat 8, Move 3; ANTI-FIGHTER BARRAGE 8
+ID: dsflorff    Source: ds
+:UnitUpgradeTech:Crimson Legionnaire II:Mahact::ProjectPie:
+Requirements: :biotic::biotic:
+Cost 1 (x2), Combat 7. After this unit is destroyed, gain 1 commodity or convert 1 of your commodities to a trade good. When you gain control of a planet, if the number of infantry you have on the planet is greater than the planet's resource value, gain that planet readied.
+ID: pi_cl2    Source: project_pi
+:UnitUpgradeTech:Crimson Legionnaire II:Mahact:
+Requirements: :biotic::biotic:
+Cost 1(x2), Combat 7. After this unit is destroyed, gain 1 commodity or convert 1 of your commodities to a trade good. Then, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home system.
+ID: cl2    Source: pok
+:UnitUpgradeTech:Dimensional Tear II:Cabal:
+Requirements: :cybernetic::cybernetic:
+PRODUCTION 7. This system is a gravity rift; your ships do not roll for this gravity rift. Place a dimensional tear token beneath this unit as a reminder. Up to 12 fighters in this system do not count against your ships' capacity.
+ID: dt2    Source: pok
+:UnitUpgradeTech:Dimensional Tear II:Cabal::Absol:
+Requirements: :cybernetic::cybernetic:
+This system is a gravity rift; your ships do not roll for this gravity rift. Place a dimensional tear token beneath this unit as a reminder. Up to 10 fighters in this system do not count against your ships' capacity. 1 non-fighter ship in this system does not count against your fleet pool.
+
+PRODUCTION 7
+ID: absol_dt2    Source: absol
+:UnitUpgradeTech:Floating Factory II:Saar::Absol:
+Requirements: :cybernetic::cybernetic:
+MOVE 2; CAPACITY 6
+
+This unit is placed in the space area instead of on a planet. This unit can move and retreat as if it were a ship. If this unit is blockaded, it is destroyed. 1 non-fighter ship in this system does not count against your fleet pool.
+
+PRODUCTION 7
+ID: absol_ffac2    Source: absol
+:UnitUpgradeTech:Floating Factory II:Saar::MiltyMod:
+Requirements: :cybernetic::cybernetic:
+MOVE 2; CAPACITY 6
+
+This unit is placed in the space area instead of on a planet. This unit can move and retreat as if it were a ship. If this unit is blockaded, it is destroyed.
+
+PRODUCTION 7
+ID: miltymod_ffac2    Source: miltymod
+:UnitUpgradeTech:Floating Factory II:Saar::ProjectPie:
+Requirements: :cybernetic::cybernetic:
+Move 2, Capacity 6, PRODUCTION 7. This unit is placed in a space area instead of on a planet. This unit can move and retreat as if it were a ship. If this unit is blockadedm it is destroyed.
+ID: pi_ffac2    Source: project_pi
+:UnitUpgradeTech:Floating Factory II:Saar:
+Requirements: :cybernetic::cybernetic:
+Move 2, Capacity 5, PRODUCTION 7. This unit is placed in the space area instead of on a planet. This unit can move and retreat as if it were a ship. If this unit is blockaded, it is destroyed.
+ID: ffac2    Source: base
+:UnitUpgradeTech:Gauss Cannon II:mirveda::DS:
+Requirements: :warfare::cybernetic:
+This unit is placed in a space area instead of on a planet. This unit can move and retreat as if it were a ship. This unit can be blockaded, if it is blockaded, it is destroyed. 2; SPACE CANNON 4, BOMBARDMENT 4, CAPACITY 1
+ID: dsmirvpds    Source: ds
+:UnitUpgradeTech:Heavy Bomber II:lizho::DS:
+Requirements: :propulsion::biotic:
+This unit may move without being transported. Fighters in excess of your ships' capacity count against your fleet pool. Cost 1(x2), Combat 8, Move 2; BOMBARDMENT 8
+ID: dslizhff    Source: ds
+:UnitUpgradeTech:Hel-Titan II:Titans:
+Requirements: :cybernetic::warfare:
+Combat 6. This unit is treated as both a structure and a ground force. It cannot be transported. You may use this unit's SPACE CANNON against ships that are adjacent to this unit's systems. PLANETARY SHIELD, SPACE CANNON 5, SUSTAIN DAMAGE, PRODUCTION 1
+ID: ht2    Source: pok
+:UnitUpgradeTech:Hel-Titan II:Titans::IgnisAurora:
+Requirements: :cybernetic::warfare:
+Combat 6. This unit is treated as both a structure and a ground force. It cannot be transported. You may use this unit's SPACE CANNON against ships that are adjacent to this unit's systems. When your units use Space Cannon, at least half of the hits produced by those units (rounded up) must be assigned to non-fighter ships if able. PLANETARY SHIELD, SPACE CANNON 6, SUSTAIN DAMAGE, PRODUCTION 1
+ID: baldrick_ht2    Source: ignis_aurora
+:UnitUpgradeTech:Hel-Titan II:Titans::Absol:
+Requirements: :cybernetic::warfare:
+Combat 6. This unit is treated as both a structure and a ground force. It cannot be transported. You may use this unit's SPACE CANNON against ships that are adjacent to this unit's systems. PLANETARY SHIELD, SPACE CANNON 5, SUSTAIN DAMAGE, PRODUCTION 1
+ID: absol_ht2    Source: absol
+:UnitUpgradeTech:Hybrid Crystal Fighter II:Naalu::ProjectPie:
+Requirements: :cybernetic::propulsion:
+Cost 1 (x2), Combat 7, Move 2. This unit may move without being transported. Each fighter in excess of your ship's capacity counts as 1/2 of a ship against your fleet pool.
+ID: pi_hcf2    Source: project_pi
+:UnitUpgradeTech:Hybrid Crystal Fighter II:Naalu::Absol:
+Requirements: :propulsion::biotic:
+COST: 1(x2); COMBAT 7; MOVE 2
+
+This unit may move without being transported. Fighters in excess of your ships' capacity count as 1/2 of a ship against your fleet pool.
+ID: absol_hcf2    Source: absol
+:UnitUpgradeTech:Hybrid Crystal Fighter II:Naalu::IgnisAurora:
+Requirements: :propulsion::cybernetic:
+Cost 1(x2), Combat 7, Move 2. This unit may move without being transported. Fighters in excess of your ships' capacity count as 1/2 of a ship against your fleet pool.
+ID: baldrick_hcf2    Source: ignis_aurora
+:UnitUpgradeTech:Hybrid Crystal Fighter II:Naalu:
+Requirements: :biotic::propulsion:
+Cost 1(x2), Combat 7, Move 2. This unit may move without being transported. Fighters in excess of your ships' capacity count as 1/2 of a ship against your fleet pool.
+ID: hcf2    Source: base
+:UnitUpgradeTech:Hybrid Crystal Fighter II:Naalu::MiltyMod:
+Requirements: :propulsion::cybernetic:
+COST: 1(x2); COMBAT 7; MOVE 2
+
+This unit may move without being transported. Fighters in excess of your ships' capacity count as 1/2 of a ship against your fleet pool.
+ID: miltymod_hcf2    Source: miltymod
+:UnitUpgradeTech:Impactor II:zelian::DS:
+Requirements: :biotic::biotic:
+After this unit is destroyed, roll 1 die. If the result is 6 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home system. Cost 1(x2), Combat 7; BOMBARDMENT 8
+ID: dszeliinf    Source: ds
+:UnitUpgradeTech:Letani Warrior II:Arborec:
+Requirements: :biotic::biotic:
+Cost 1(x2), Combat 7, PRODUCTION 2. After this unit is destroyed, roll 1 die. If the result is 6 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home.
+ID: lw2    Source: base
+:UnitUpgradeTech:Letani Warrior II:Arborec::Absol:
+Requirements: :biotic::biotic:
+COST: 1(x2); COMBAT 7
+
+After this unit is destroyed, place the unit on this card.
+At the start of your next turn, for every 2 units that are on this card, place 1 on a planet you control and return the rest to your reinforcements.
+
+PRODUCTION 2
+ID: absol_lw2    Source: absol
+:UnitUpgradeTech:Letani Warrior II:Arborec::ProjectPie:
+Requirements: :biotic::biotic:
+Cost 1, Combat 7, Production 2, When you gain control of a planet, if the number of infantry you have on the planet is greater than the planet's resource value, gain that planet readied.
+ID: pi_lw2    Source: project_pi
+:UnitUpgradeTech:Letani Warrior II:Arborec::MiltyMod:
+Requirements: :biotic::biotic:
+COST: 1(x2); COMBAT 7
+
+When you gain control of a planet, if you have more infantry on that planet than that planet's resource value, gain that planet readied.
+
+PRODUCTION 2
+ID: miltymod_lw2    Source: miltymod
+:UnitUpgradeTech:Mycelium Ring II:mykomentori::DS:
+Requirements: :cybernetic::cybernetic:
+This unit's PRODUCTION value is equal to 5 more than the resource value of this planet. DEPLOY: When you gain control of a planet, you may replace 3 infantry on that planet with 1 space dock. Planetary Shield
+ID: dsmykosd    Source: ds
+:UnitUpgradeTech:Orion Platform II:gledge::DS:
+Requirements: :warfare::cybernetic:
+When this unit produces 1 or more hits against another player's units, explore this planet. You may use this unit's SPACE CANNON against ships that are adjacent to this unit's system. PLANETARY SHIELD, SPACE CANNON 5
+ID: dsgledpds    Source: ds
+:UnitUpgradeTech:Sabre II:nokar::DS:
+Requirements: :warfare::warfare:
+After this unit is destroyed during combat, roll a die, on a result equal to or greater than 7, produce up to 1 hit against your opponent's ships. Cost 1, Combat 7, Move 2; ANTI-FIGHTER BARRAGE 6(x3)
+ID: dsnokadd    Source: ds
+:UnitUpgradeTech:Spec Ops II:Sol::MiltyMod:
+Requirements: :biotic::biotic:
+COST: 1(x2); COMBAT 6
+
+When you gain control of a planet, if you have more infantry on that planet than that planet's resource or influence value, gain that planet readied.
+ID: miltymod_so2    Source: miltymod
+:UnitUpgradeTech:Spec Ops II:Sol:
+Requirements: :biotic::biotic:
+Cost 1(x2), Combat 6. After this unit is destroyed, roll 1 die. If the result is 5 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet you control in your home.
+ID: so2    Source: base
+:UnitUpgradeTech:Spec Ops II:Sol::ProjectPie:
+Requirements: :biotic::biotic:
+Cost 1 (x2), Combat 6. When you gain control of a planet, if the number of infantry you have on the planet is greater than the planet's resource value, gain that planet readied.
+ID: pi_so2    Source: project_pi
+:UnitUpgradeTech:Spec Ops II:Sol::Absol:
+Requirements: :biotic::biotic:
+COST: 1(x2); COMBAT 6
+
+After this unit is destroyed, roll 1 die. If the result is 5 or greater, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet that contains 1 of your space docks.
+ID: absol_so2    Source: absol
+:UnitUpgradeTech:Star Dragon II:kjalengard::DS:
+Requirements: :propulsion::propulsion:
+This unit may ignore the movement effects of anomalies. Cost 3, Combat 7, Move 2, Capacity 6
+ID: dskjalcv    Source: ds
+:UnitUpgradeTech:Strike Wing Alpha II:Argent::Absol:
+Requirements: :warfare::warfare:
+Cost 1, Combat 7, Move 2, Capacity 1, ANTI-FIGHTER BARRAGE 6(x3). When this unit generates a hit on a combat roll, your opponent must destroy 1 fighter in the active system, if able. When this unit uses ANTI-FIGHTER BARRAGE, each result of 9 or 10 also destroys 1 of your opponents infantry in the space area of the active system.
+ID: absol_swa2    Source: absol
+:UnitUpgradeTech:Strike Wing Alpha II:Argent:
+Requirements: :warfare::warfare:
+Cost 1, Combat 7, Move 2, Capacity 1, ANTI-FIGHTER BARRAGE 6(x3). When this unit uses ANTI-FIGHTER BARRAGE, each result of 9 or 10 also destroys 1 of your opponents infantry in the space area of the active system.
+ID: swa2    Source: pok
+:UnitUpgradeTech:Trade Port II:celdauri::DS:
+Requirements: :cybernetic::cybernetic:
+This unit's PRODUCTION value is equal to 4 more than the resource or influence value of this planet. Up to 3 fighters in this system do not count against your ships' capacity. This unit may use its ANTI-FIGHTER BARRAGE during each round of space combat. PRODUCTION X, ANTI-FIGHTER BARRAGE 6(x2)
+ID: dsceldsd    Source: ds
+:UnitUpgradeTech:Tunnel Network II:Admins::Admins:
+Requirements: :cybernetic::cybernetic:
+Up to 4 fighters in this system do not count towards your ships' capacity. PRODUCTION 7, DEEP SPACE CANNON 7
+ID: adminssd    Source: admins
+:UnitUpgradeTech:Unholy Abomination II:cymiae::DS:
+Requirements: :biotic::biotic:
+After this unit is destroyed, roll 1 die. If the result is 6 or greater, place the unit on this card. At the start of your turn, place each unit that is on this card on a planet you control, if able. Cost 1, Combat 4
+ID: dscymiinf    Source: ds
+:UnitUpgradeTech:Cruiser 2:ProjectPie:
+Requirements: :biotic::cybernetic::propulsion:
+Cost 2, Combat 6, Move 3, Capacity 1. While your curisers participate in combat, oppenent's ships apply -1 to their combat rolls.
+ID: pi_cr2    Source: project_pi
+:UnitUpgradeTech:Cruiser II:MiltyMod:
+Requirements: :biotic::cybernetic::warfare:
+COST 2; COMBAT 6; MOVE 3; CAPACITY 1
+
+When making a combat roll for this ship, each result of 9 or 10, before applying modifiers, produces 1 additional hit.
+ID: miltymod_cr2    Source: miltymod
+:UnitUpgradeTech:Cruiser II
+Requirements: :biotic::cybernetic::warfare:
+Cost 2, Combat 6, Move 3, Capacity 1
+ID: cr2    Source: base
+:UnitUpgradeTech:Cruiser II:Absol:
+Requirements: :biotic::cybernetic::warfare:
+COST 2; COMBAT 6; MOVE 3; CAPACITY 1
+ID: absol_cr2    Source: absol
+:UnitUpgradeTech:Dreadnaught II:ProjectPie:
+Requirements: :warfare::propulsion::cybernetic:
+Cost 4, Combat 5, Move 2, Capactiy 1, SUSTAIN DAMAGE, BOMBARDMENT 5. When making a combat roll for this ship, each result of 9 or 10, before applying modifiers, produces 1 additional hits.
+ID: pi_dn2    Source: project_pi
+:UnitUpgradeTech:Dreadnought II
+Requirements: :propulsion::propulsion::cybernetic:
+Cost 4, Combat 5, Move 2, Capacity 1, SUSTAIN DAMAGE, BOMBARDMENT 5. "Direct Hit" cards are no longer effective against this type of ship.
+ID: dn2    Source: base
+:UnitUpgradeTech:Dreadnought II:IgnisAurora:
+Requirements: :warfare::propulsion::cybernetic:
+Cost 4, Combat 5, Move 2, Capacity 1, SUSTAIN DAMAGE, BOMBARDMENT 5.
+ID: baldrick_dn2    Source: ignis_aurora
+:UnitUpgradeTech:Dreadnought II:MiltyMod:
+Requirements: :warfare::propulsion::cybernetic:
+COST 4; COMBAT 4; MOVE 2; CAPACITY 1
+
+SUSTAIN DAMAGE, BOMBARDMENT 4
+ID: miltymod_dn2    Source: miltymod
+:UnitUpgradeTech:Dreadnought II:Absol:
+Requirements: :propulsion::propulsion::cybernetic:
+COST 4; COMBAT 5; MOVE 2; CAPACITY 1
+
+This unit cannot be destroyed by "Direct Hit" action cards.
+
+SUSTAIN DAMAGE, BOMBARDMENT 5
+ID: absol_dn2    Source: absol
+:UnitUpgradeTech:Aegis II:dihmohn::DS:
+Requirements: :propulsion::propulsion::cybernetic:
+When another ship in this system would be destroyed by a game effect, you may have this ship become damaged instead. Cost 4, Combat 4, Move 2, Capacity 1; SUSTAIN DAMAGE, BOMBARDMENT 5
+ID: dsdihmdn    Source: ds
+:UnitUpgradeTech:Chitin Hulk II:cheiran::DS:
+Requirements: :propulsion::propulsion::cybernetic:
+This unit cannot be destroyed by “Direct Hit” action cards. When this unit is destroyed, you may place 1 fighter or 1 destroyer from your reinforcements in this system's space area. Cost 4, Combat 5, Move 2, Capacity 1; SUSTAIN DAMAGE, BOMBARDMENT 5
+ID: dscheidn    Source: ds
+:UnitUpgradeTech:Crimson Legionnaire II:Mahact::Absol:
+Requirements: :biotic::biotic::biotic:
+COST: 1(x2); COMBAT 7
+
+After this unit is destroyed, gain 2 commodities or convert 1 of your commodities to a trade good. Then, place the unit on this card. At the start of your next turn, place each unit that is on this card on a planet that contains 1 of your structures.
+ID: absol_cl2    Source: absol
+:UnitUpgradeTech:Exotrieme II:Sardakk::ProjectPie:
+Requirements: :warfare::propulsion::cybernetic:
+Cost 4, Comabt 5, Move 2, Capacity 1, BOMBARDMENT 4(x2). When making a combat roll for this ship, each result of 9 or 10, before applying modifiers, produces 1 additional hit. After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system.
+ID: pi_exo2    Source: project_pi
+:UnitUpgradeTech:Exotrireme II:Sardakk::IgnisAurora:
+Requirements: :warfare::propulsion::cybernetic:
+Cost 4, Combat 5, Move 2, Capacity 1, SUSTAIN DAMAGE, BOMBARDMENT 4(x2), After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system.
+ID: baldrick_exo2    Source: ignis_aurora
+:UnitUpgradeTech:Exotrireme II:Sardakk:
+Requirements: :propulsion::propulsion::cybernetic:
+Cost 4, Combat 5, Move 2, Capacity 1, SUSTAIN DAMAGE, BOMBARDMENT 4(x2), After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system. "Direct Hit" cards are no longer effective against this type of ship.
+ID: exo2    Source: base
+:UnitUpgradeTech:Exotrireme II:Sardakk::MiltyMod:
+Requirements: :warfare::propulsion::cybernetic:
+COST 4; COMBAT 4; MOVE 2; CAPACITY 1After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system.
+
+SUSTAIN DAMAGE, BOMBARDMENT 3(x2)
+ID: miltymod_exo2    Source: miltymod
+:UnitUpgradeTech:Exotrireme II:Sardakk::Absol:
+Requirements: :propulsion::propulsion::cybernetic:
+COST 4; COMBAT 5; MOVE 2; CAPACITY 1
+
+This unit cannot be destroyed by "Direct Hit" action cards. After a round of space combat, you may destroy this unit to destroy up to 2 ships in this system.
+
+SUSTAIN DAMAGE, BOMBARDMENT 4(x2)
+ID: absol_exo2    Source: absol
+:UnitUpgradeTech:Lancer Dreadnought II:veldyr::DS:
+Requirements: :propulsion::propulsion::cybernetic:
+This unit cannot be destroyed by “Direct Hit” action cards. Cost 4, Combat 5, Move 2, Capacity 1; SUSTAIN DAMAGE, BOMBARDMENT 5, SPACE CANNON 5
+ID: dsvelddn    Source: ds
+:UnitUpgradeTech:Memoria II:Nomad:
+Requirements: :biotic::propulsion::cybernetic:
+Cost 8, Combat 5(x2), Move 2, Capacity 6, SUSTAIN DAMAGE, ANTI-FIGHTER BARRAGE 5(x3). You may treat this unit as if it were adjacent to systems that contain one or more of your mechs.
+ID: m2    Source: pok
+:UnitUpgradeTech:Memoria II:Nomad::Absol:
+Requirements: :propulsion::biotic::cybernetic:
+COST 8; COMBAT 5(x3); MOVE 3; Capacity 6
+
+You may treat this unit as if it were adjacent to systems that contain 1 or more of your mechs.
+
+SUSTAIN DAMAGE, ANTI-FIGHTER BARRAGE 5(x3)
+ID: absol_m2    Source: absol
+:UnitUpgradeTech:Memoria II:Nomad::ProjectPie:
+Requirements: :warfare::biotic::propulsion:
+Cost 8, Combat 5 (x2), Move 2, Capacity 6, ANTI-FIGHTER BARRAGE 5 (x3), BOMBARDMENT 5. You may treat this unit as if it were adjacent to systems that contain 1 or more of your mechs.
+ID: pi_m2    Source: project_pi
+:UnitUpgradeTech:Raider II:vaylerian::DS:
+Requirements: :biotic::warfare::cybernetic:
+During a round of space combat, if your opponent cannot declare a retreat, hits produced by this ship cannot be canceled and must be assigned to non-fighter ships, if able. Cost 2, Combat 6, Move 3, Capacity 1
+ID: dsvaylcr    Source: ds
+:UnitUpgradeTech:Saturn Engine II:Titans:
+Requirements: :biotic::cybernetic::warfare:
+Cost 2, Combat 6, Move 3, Capacity 2, SUSTAIN DAMAGE
+ID: se2    Source: pok
+:UnitUpgradeTech:Saturn Engine II:Titans::Absol:
+Requirements: :biotic::cybernetic::warfare:
+Cost 2, Combat 6, Move 3, Capacity 2, SUSTAIN DAMAGE
+ID: absol_se2    Source: absol
+:UnitUpgradeTech:Saturn Engine II:Titans::ProjectPie:
+Requirements: :biotic::cybernetic::propulsion:
+Cost 2, Combat 6, Move 3, Capacity 2, SUSTAIN DAMAGE.
+ID: pi_se2    Source: project_pi
+:UnitUpgradeTech:Shattered Sky II:khrask::DS:
+Requirements: :biotic::warfare::cybernetic:
+Cost 2, Combat 6, Move 3, Capacity 2; BOMBARDMENT 6
+ID: dskhracr    Source: ds
+:UnitUpgradeTech:Super Dreadnaught II:L1Z1X::ProjectPie:
+Requirements: :warfare::propulsion::cybernetic:
+Cost 4, Combat 4, Move 2, Capacity 2, BOMBARDMENT 4, SUSTAIN DAMAGE. When making a combat roll for this ship, each result of 9 or 10, before applying modifiers, produces 1 additional hit. Other players' units in this system lose PLANETARY SHIELD.
+ID: pi_sdn2    Source: project_pi
+:UnitUpgradeTech:Super Dreadnought II:L1Z1X::IgnisAurora:
+Requirements: :warfare::propulsion::cybernetic:
+Cost 4, Combat 4, Move 2, Capacity 2, SUSTAIN DAMAGE, BOMBARDMENT 4.
+ID: baldrick_sdn2    Source: ignis_aurora
+:UnitUpgradeTech:Super Dreadnought II:L1Z1X:
+Requirements: :propulsion::propulsion::cybernetic:
+Cost 4, Combat 4, Move 2, Capacity 2, SUSTAIN DAMAGE, BOMBARDMENT 4. "Direct Hit" cards are no longer effective against this type of ship.
+ID: sdn2    Source: base
+:UnitUpgradeTech:Super-Dreadnought II:L1Z1X::MiltyMod:
+Requirements: :warfare::propulsion::cybernetic:
+COST 4; COMBAT 3; MOVE 2; CAPACITY 2
+
+SUSTAIN DAMAGE, BOMBARDMENT 3
+ID: miltymod_sdn2    Source: miltymod
+:UnitUpgradeTech:Super-Dreadnought II:L1Z1X::Absol:
+Requirements: :propulsion::propulsion::cybernetic:
+COST 4; COMBAT 4; MOVE 2; CAPACITY 2
+
+This unit cannot be destroyed by "Direct Hit" action cards.
+
+SUSTAIN DAMAGE, BOMBARDMENT 4
+ID: absol_sdn2    Source: absol
+:UnitUpgradeTech:Voidflare Warden II:nivyn::DS:
+Requirements: :propulsion::warfare::cybernetic:
+After a system is activated, you may have this unit become damaged to place or move the Wound token into this system. Cost 2, Combat 4; SUSTAIN DAMAGE
+ID: dsnivymf    Source: ds
+:UnitUpgradeTech:War Sun:Absol:
+Requirements: :cybernetic::warfare::warfare::warfare:
+COST 10; COMBAT 3(x3); MOVE 2; CAPACITY 6
+
+Other player's units in this system lose PLANETARY SHIELD.
+
+SUSTAIN DAMAGE, BOMBARDMENT 3(x3)
+ID: absol_ws    Source: absol
+:UnitUpgradeTech:War Sun:ProjectPie:
+Requirements: :cybernetic::warfare::warfare::warfare:
+Cost 12, Comabt 3 (x3), Move 2, Capacity 8, SUSTAIN DAMAGE, BOMBARDMENT 3 (x3). Other players' units in this system lose PLANETARY SHIELD.
+ID: pi_ws    Source: project_pi
+:UnitUpgradeTech:War Sun:MiltyMod:
+Requirements: :biotic::cybernetic::warfare::warfare:
+COST 12; COMBAT 3(x3); MOVE 2; CAPACITY 6
+
+Other player's units in this system lose PLANETARY SHIELD.
+
+SUSTAIN DAMAGE, BOMBARDMENT 3(x3)
+ID: miltymod_ws    Source: miltymod
+:UnitUpgradeTech:War Sun
+Requirements: :warfare::warfare::warfare::cybernetic:
+Cost 12, Combat 3(x3), Move 2, Capacity 6, SUSTAIN DAMAGE, BOMBARDMENT 3(x3). Other players' units in this system lose their Planetary Shield Ability.
+ID: ws    Source: base
+:UnitUpgradeTech:War Sun:IgnisAurora:
+Requirements: :warfare::warfare::warfare::cybernetic:
+Cost 10, Combat 3(x3), Move 2, Capacity 8, SUSTAIN DAMAGE, BOMBARDMENT 3(x3). Other players' units in this system lose their Planetary Shield Ability.
+ID: baldrick_ws    Source: ignis_aurora
+:UnitUpgradeTech:Prototype War Sun II:Muaat::IgnisAurora:
+Requirements: :warfare::warfare::warfare::cybernetic:
+Cost 10, Combat 3(x3), Move 2, Capacity 8, SUSTAIN DAMAGE, BOMBARDMENT 3(x3). Other players' units in this system lose their Planetary Shield Ability. This unit cannot be destroyed by Direct Hit action cards.
+ID: baldrick_pws2    Source: ignis_aurora
+:UnitUpgradeTech:Prototype War Sun II:Muaat:
+Requirements: :warfare::warfare::warfare::cybernetic:
+Cost 10, Combat 3(x3), Move 3, Capacity 6, SUSTAIN DAMAGE, BOMBARDMENT 3(x3). Other players' units in this system lose their Planetary Shield Ability.
+ID: pws2    Source: base
+:UnitUpgradeTech:Prototype Warsun II:Muaat::Absol:
+Requirements: :cybernetic::warfare::warfare::warfare:
+COST 8; COMBAT 3(x3); MOVE 3; CAPACITY 6
+
+Other player's units in this system lose PLANETARY SHIELD. This unit cannot be destroyed by "Direct Hit" action cards.
+
+SUSTAIN DAMAGE, BOMBARDMENT 3(x3)
+ID: absol_pws2    Source: absol
+:UnitUpgradeTech:Prototype Warsun II:Muaat::MiltyMod:
+Requirements: :biotic::cybernetic::warfare::warfare:
+COST 10; COMBAT 3(x3); MOVE 3; CAPACITY 6
+
+Other player's units in this system lose PLANETARY SHIELD.
+
+SUSTAIN DAMAGE, BOMBARDMENT 3(x3)
+ID: miltymod_pws2    Source: miltymod
+:UnitUpgradeTech:Protoype War Sun II:Muaat::ProjectPie:
+Requirements: :warfare::warfare::warfare::cybernetic:
+Cost 10, Combat 3 (x3), Move 3, Capacity 8, BOMBARDMENT 3 (x3), SUSTAIN DAMAGE. Other players units in this system lose the PLANETARY SHIELD ability.
+ID: pi_pws2    Source: project_pi
+:UnitUpgradeTech:Terrafactory II:rohdhna::DS:
+Requirements: :warfare::warfare::warfare::cybernetic:
+Other player's units in this system lose PLANETARY SHIELD. This unit produces only 1 fighter or infantry for their cost instead of 2. Cost 12, Combat 3(x3), Move 2, Capacity 6; SUSTAIN DAMAGE, PRODUCTION 5, BOMBARDMENT 3(x3)
+ID: dsrohdws    Source: ds
+:Summer~1:Valefar Assimilator X:Nekro:
+Requirements: None
+When you would gain another player's technology using 1 of your faction abilities, you may place the "X" assimilator token on a faction technology owned by that player instead. While that token is on a technology, this card gains that technology's text. You cannot place an assimilator token on technology that already has an assimilator token.
+ID: vax    Source: base
+:Summer~1:Valefar Assimilator Y:Nekro:
+Requirements: None
+When you would gain another players technology using 1 of your faction abilities, you may place the "Y" assimilator token on a faction technology owned by that player instead. While that token is on a technology, this card gains that technology's text. You cannot place an assimilator token on technology that already has an assimilator token.
+ID: vay    Source: base
