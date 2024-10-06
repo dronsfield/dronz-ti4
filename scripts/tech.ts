@@ -77,7 +77,12 @@ function processFile(filePath: string) {
             currentItemSection = 3;
             processLine(line);
           } else {
-            currentItem.info.push(line);
+            const omegaIndex = line.indexOf("Omega: ");
+            if (omegaIndex !== -1) {
+              currentItem.info.push(line.slice(omegaIndex + 7));
+            } else {
+              currentItem.info.push(line);
+            }
           }
         } else if (currentItemSection === 3) {
           const regex = /ID:\s*([^\s]+)\s+Source:\s*([^\s]+)/;
