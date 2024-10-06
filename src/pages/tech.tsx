@@ -24,6 +24,7 @@ const StyledTech = styled.div`
   position: relative;
   display: flex;
   flex-direction: column;
+  background-color: white;
 `;
 
 const Name = styled.h2`
@@ -71,33 +72,84 @@ const Type = styled.div`
   }
 `;
 
+const Overlay = styled.div<{ $visible: boolean }>`
+  position: fixed;
+  inset: 0;
+  ${(p) =>
+    p.$visible
+      ? `
+  background-color: rgba(0, 0, 0, 0.5);  
+  `
+      : `
+  background-color: rgba(0, 0, 0, 0.0);
+  pointer-events: none;
+  `}
+`;
+
 const Page = () => {
+  const [hasSelected, setHasSelected] = React.useState(false);
+
   return (
-    <StyledContainer>
-      <div>
-        <Link href="/">{"<"} All info</Link>
-      </div>
-      <Tiles>
-        {techs.map((tech) => {
-          return (
-            <StyledTech>
-              <Name>{tech.name}</Name>
-              <Info>{tech.info.join("\n")}</Info>
-              <Reqs>
-                {tech.reqs.map((req) => {
-                  return <img src={`/Ti_icons_${req}.webp`} />;
-                })}
-              </Reqs>
-              {tech.type === "UnitUpgradeTech" ? null : (
-                <Type>
-                  <img src={`/Ti_icons_${tech.type}.webp`} />
-                </Type>
-              )}
-            </StyledTech>
-          );
-        })}
-      </Tiles>
-    </StyledContainer>
+    <>
+      <StyledContainer>
+        <div>
+          <Link href="/">{"<"} All info</Link>
+        </div>
+        <Tiles>
+          {techs.map((tech) => {
+            return (
+              <StyledTech
+                key={tech.id}
+                data-id={tech.id}
+                onClick={(evt) => {
+                  const el: HTMLDivElement = document.querySelector(
+                    `[data-id="${tech.id}"]`
+                  )!;
+                  if (!hasSelected) {
+                    evt.stopPropagation();
+                    const clone = el.cloneNode(true);
+                    const bounds = el.getBoundingClientRect();
+                    // @ts-ignore
+                    clone.style = `height: ${bounds.height}px; width: ${
+                      bounds.width
+                    }px; transform: scale(2); position: fixed; top: 50%; left: 50%; margin-top: -${
+                      1 * bounds.height
+                    }px; margin-left: -${0.5 * bounds.width}px; z-index: 1`;
+                    document.querySelector("#overlay")?.appendChild(clone);
+                  }
+                  setHasSelected(true);
+                }}
+              >
+                <Name>{tech.name}</Name>
+                <Info>{tech.info.join("\n")}</Info>
+                <Reqs>
+                  {tech.reqs.map((req) => {
+                    return <img src={`/Ti_icons_${req}.webp`} />;
+                  })}
+                </Reqs>
+                {tech.type === "UnitUpgradeTech" ? null : (
+                  <Type>
+                    <img src={`/Ti_icons_${tech.type}.webp`} />
+                  </Type>
+                )}
+              </StyledTech>
+            );
+          })}
+        </Tiles>
+      </StyledContainer>
+      <Overlay
+        $visible={hasSelected}
+        id="overlay"
+        onClick={(evt) => {
+          // @ts-ignore
+          if (evt.target.id === "overlay") {
+            setHasSelected(false);
+            // @ts-ignore
+            evt.target.innerHTML = "";
+          }
+        }}
+      />
+    </>
   );
 };
 
