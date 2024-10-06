@@ -3,9 +3,16 @@ import React from "react";
 import { Container } from "../components/Container";
 import styled from "styled-components";
 
+const StyledContainer = styled(Container)`
+  li {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
+`;
+
 export function Home() {
   return (
-    <Container>
+    <StyledContainer>
       <h1>TI4 Info</h1>
       <ul>
         <li>
@@ -18,7 +25,7 @@ export function Home() {
           <Link href="/ac">Action cards</Link>
         </li>
       </ul>
-    </Container>
+    </StyledContainer>
   );
 }
 
