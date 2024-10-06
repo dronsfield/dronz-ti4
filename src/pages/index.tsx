@@ -24,6 +24,9 @@ export function Home() {
         <li>
           <Link href="/ac">Action cards</Link>
         </li>
+        <li>
+          <Link href="/sc">Strategy cards</Link>
+        </li>
       </ul>
     </StyledContainer>
   );
