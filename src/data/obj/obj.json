@@ -329,19 +329,11 @@
   },
   {
     "name": "Make an Example of Their World",
-    "condition": "Use BOMBARDMENT to destroy the last of a player's ground forces on a planet.",
+    "condition": "Destroy the last of a player's ground forces on a planet during the bombardment step.",
     "value": "1",
     "objType": "so",
     "phase": "action",
     "id": "make-an-example-of-their-world"
-  },
-  {
-    "name": "Ω Update (Codex III): Destroy the last of a player's ground forces on a planet during the bombardment step.",
-    "condition": "",
-    "value": "",
-    "objType": "so",
-    "phase": "action",
-    "id": "-update-codex-iii-destroy-the-last-of-a-players-ground-forces-on-a-planet-during-the-bombardment-step"
   },
   {
     "name": "Spark a Rebellion",
@@ -353,19 +345,11 @@
   },
   {
     "name": "Turn Their Fleets to Dust",
-    "condition": "Use SPACE CANNON to destroy the last of a player's ships in a system.",
+    "condition": "Destroy the last of a player's non-fighter ships in the active system during the space cannon offense step.",
     "value": "1",
     "objType": "so",
     "phase": "action",
     "id": "turn-their-fleets-to-dust"
-  },
-  {
-    "name": "Ω Update (Codex III): Destroy the last of a player's non-fighter ships in the active system during the space cannon offense step.",
-    "condition": "",
-    "value": "",
-    "objType": "so",
-    "phase": "action",
-    "id": "-update-codex-iii-destroy-the-last-of-a-players-non-fighter-ships-in-the-active-system-during-the-space-cannon-offense-step"
   },
   {
     "name": "Unveil Flagship",
@@ -417,19 +401,11 @@
   },
   {
     "name": "Fight With Precision",
-    "condition": "Use ANTI-FIGHTER BARRAGE to destroy the last of a player's fighters in a system.",
+    "condition": "Destroy the last of a player's fighters in the active system during the anti-fighter barrage step.",
     "value": "1",
     "objType": "so",
     "phase": "action",
     "id": "fight-with-precision"
-  },
-  {
-    "name": "Ω Update (Codex III): Destroy the last of a player's fighters in the active system during the anti-fighter barrage step.",
-    "condition": "",
-    "value": "",
-    "objType": "so",
-    "phase": "action",
-    "id": "-update-codex-iii-destroy-the-last-of-a-players-fighters-in-the-active-system-during-the-anti-fighter-barrage-step"
   },
   {
     "name": "Prove Endurance",

@@ -27,6 +27,12 @@ export function Home() {
         <li>
           <Link href="/sc">Strategy cards</Link>
         </li>
+        <li>
+          <Link href="/po">Public objectives</Link>
+        </li>
+        <li>
+          <Link href="/so">Secret objectives</Link>
+        </li>
       </ul>
     </StyledContainer>
   );

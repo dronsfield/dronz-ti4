@@ -2,8 +2,9 @@ import { Container } from "@/components/Container";
 import { createArray } from "@/util/createArray";
 import React from "react";
 import styled from "styled-components";
+import Link from "next/link";
 
-const StyledContainer = styled(Container)`
+const Grid = styled.div`
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 1em;
@@ -22,15 +23,22 @@ const StyledContainer = styled(Container)`
 
 const Page = () => {
   return (
-    <StyledContainer>
-      {createArray(8).map((_, index) => {
-        const initiative = index + 1;
-        const ext = initiative === 2 ? "webp" : "png";
-        return (
-          <div style={{ backgroundImage: `url("/sc/${initiative}.${ext}")` }} />
-        );
-      })}
-    </StyledContainer>
+    <Container>
+      <div style={{ marginBlockEnd: "1.5em" }}>
+        <Link href="/">{"<"} All info</Link>
+      </div>
+      <Grid>
+        {createArray(8).map((_, index) => {
+          const initiative = index + 1;
+          const ext = initiative === 2 ? "webp" : "png";
+          return (
+            <div
+              style={{ backgroundImage: `url("/sc/${initiative}.${ext}")` }}
+            />
+          );
+        })}
+      </Grid>
+    </Container>
   );
 };
 

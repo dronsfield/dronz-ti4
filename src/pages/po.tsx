@@ -33,10 +33,7 @@ const Page = () => {
             <div
               style={{
                 color: item.value === "1" ? "#D16F36" : "#2F5583",
-                paddingBlock: "0.25em",
-                paddingInlineStart: "0.25em",
-                paddingInlineEnd: "1em",
-                // maxWidth: "16em",
+                padding: "0.25em 1em 0.25em 0.25em",
               }}
             >
               <div>

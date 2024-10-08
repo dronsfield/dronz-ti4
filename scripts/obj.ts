@@ -44,6 +44,8 @@ async function getObjectives() {
     return text.replace(/\\n/g, "").trim();
   }
 
+  const CODEX_STRING = `Ω Update (Codex III): `;
+
   function parseTable(table: HTMLTableElement) {
     table.querySelectorAll("tr").forEach((row) => {
       const cells = row.querySelectorAll("td");
@@ -55,7 +57,14 @@ async function getObjectives() {
           objType,
           phase,
         };
-        items.push(item);
+        if (item.name.startsWith(CODEX_STRING)) {
+          items[items.length - 1].condition = item.name.replace(
+            CODEX_STRING,
+            ""
+          );
+        } else {
+          items.push(item);
+        }
       }
     });
   }
