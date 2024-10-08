@@ -8,6 +8,7 @@ import { useStickyState } from "@/hooks/useStickyState";
 import StarredList from "@/components/StarredList";
 
 import allObjectives from "@/data/obj/obj.json";
+import { ListItem } from "@/components/ListItem";
 
 const items = sortBy(
   allObjectives.filter((obj) => obj.objType === "po"),
@@ -30,17 +31,14 @@ const Page = () => {
         storageKey="current-po"
         renderItem={(item) => {
           return (
-            <div
+            <ListItem
+              title={item.name}
+              body={item.condition}
               style={{
                 color: item.value === "1" ? "#D16F36" : "#2F5583",
                 padding: "0.25em 1em 0.25em 0.25em",
               }}
-            >
-              <div>
-                <strong>{item.name}</strong>
-              </div>
-              <div style={{ opacity: 0.67 }}>{item.condition}</div>
-            </div>
+            />
           );
         }}
       />
