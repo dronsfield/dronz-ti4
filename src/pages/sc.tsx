@@ -8,6 +8,10 @@ const StyledContainer = styled(Container)`
   grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
   gap: 1em;
 
+  @media (min-width: 768px) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
   & > div {
     padding-top: 125%;
     background-size: contain;

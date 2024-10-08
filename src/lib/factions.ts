@@ -1,3 +1,5 @@
+import { createId } from "./createId";
+
 export const factionNames = [
   "The Arborec",
   "The Barony of Letnev",
@@ -30,11 +32,7 @@ export const convertNameToScrapePath = (name: string) => {
   return name.replace(/ /g, "_").replace(/'/g, "%27");
 };
 export const convertNameToId = (name: string) => {
-  return name
-    .replace("The ", "")
-    .replace(/ /g, "-")
-    .replace(/[^a-zA-Z-]/g, "")
-    .toLowerCase();
+  return createId(name.replace("The ", ""));
 };
 export const convertNameToDisplay = (name: string) => {
   return name.replace("The ", "");
