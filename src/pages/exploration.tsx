@@ -4,7 +4,7 @@ import { sortBy } from "@/util/sortBy";
 import allExploreCards from "@/data/explore.json";
 import { ListContainer, ListItem } from "@/components/ListItem";
 
-const items = sortBy(allExploreCards, ["quantity", "name"]);
+const items = sortBy(allExploreCards, ["quantity", "effect"]);
 
 const Page = () => {
   const renderCard = (item: (typeof items)[number]) => {

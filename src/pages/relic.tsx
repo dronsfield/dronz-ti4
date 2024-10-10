@@ -6,7 +6,7 @@ import { ListContainer, ListItem } from "@/components/ListItem";
 
 const items = sortBy(
   allExploreCards.filter((item) => item.cardType === "relic"),
-  "name"
+  "effect"
 );
 
 const Page = () => {
