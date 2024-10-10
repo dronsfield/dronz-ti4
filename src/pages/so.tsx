@@ -8,7 +8,7 @@ import { ListContainer, ListItem } from "@/components/ListItem";
 
 const items = sortBy(
   allObjectives.filter((obj) => obj.objType === "so"),
-  "name"
+  "condition"
 );
 
 const Page = () => {
