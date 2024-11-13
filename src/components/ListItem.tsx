@@ -21,7 +21,15 @@ export function ListItem(props: { title: string; body: string } & any) {
       <div>
         <strong>{title}</strong>
       </div>
-      <div style={{ opacity: 0.67, marginBlockStart: "0.25em" }}>{body}</div>
+      <div
+        style={{
+          opacity: 0.67,
+          marginBlockStart: "0.25em",
+          whiteSpace: "pre-wrap",
+        }}
+      >
+        {body}
+      </div>
     </div>
   );
 }

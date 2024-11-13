@@ -102,6 +102,11 @@ const linksConfig = [
     text: "Relics",
     image: "/home/relic.webp",
   },
+  {
+    href: "/agenda",
+    text: "Agendas",
+    image: "/home/agenda.jpeg",
+  },
 ];
 
 export function Home() {

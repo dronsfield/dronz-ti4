@@ -12,7 +12,7 @@ import { ListItem } from "@/components/ListItem";
 
 const items = sortBy(
   allObjectives.filter((obj) => obj.objType === "po"),
-  ["value", "condition"]
+  ["value", "name"]
 );
 
 const Page = () => {

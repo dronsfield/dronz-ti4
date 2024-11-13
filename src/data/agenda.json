@@ -1,0 +1,569 @@
+[
+  {
+    "name": "Anti-Intellectual Revolution",
+    "elect": "",
+    "effect": "FOR : After a player researches a technology, they must destroy 1 of their non-fighter ships.\nAGAINST : At the start of the next strategy phase, each player chooses and exhausts 1 planet for each technology they own.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "anti-intellectual-revolution",
+    "removedInPok": false
+  },
+  {
+    "name": "Classified Document Leaks",
+    "elect": "Scored\nSecret\nObjective",
+    "effect": "When this agenda is revealed, if there are no scored secret objectives, discard this card and reveal another agenda from the top of the deck.\nThe elected secret objective becomes a public objective; place it near the other public objectives in the common play area.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "classified-document-leaks",
+    "removedInPok": false
+  },
+  {
+    "name": "Committee Formation",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nBefore players vote on an agenda that requires a player to be elected, the owner of this card may discard this card to choose a player to be elected. Players do not vote on that agenda.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "committee-formation",
+    "removedInPok": false
+  },
+  {
+    "name": "Conventions of War",
+    "elect": "",
+    "effect": "FOR : Players cannot use BOMBARDMENT against units that are on cultural planets.\nAGAINST : Each player that voted \"Against\" discards all of their action cards.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "conventions-of-war",
+    "removedInPok": false
+  },
+  {
+    "name": "Core Mining",
+    "elect": "Hazardous\nPlanet",
+    "effect": "Attach this card to the elected planet's card. Then, destroy 1 infantry on the planet.\nThe resource value of this planet is increased by 2.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "core-mining",
+    "removedInPok": true
+  },
+  {
+    "name": "Demilitarized Zone",
+    "elect": "Cultural\nPlanet",
+    "effect": "Attach this card to the elected planet's card. Then, destroy all units on that planet.\nPlayer's units cannot land, be produced, or be placed on this planet.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "demilitarized-zone",
+    "removedInPok": true
+  },
+  {
+    "name": "Enforced Travel Ban",
+    "elect": "",
+    "effect": "FOR : Alpha and beta wormholes have no effect during movement.\nAGAINST : Destroy each PDS in or adjacent to a system that contains a wormhole.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "enforced-travel-ban",
+    "removedInPok": false
+  },
+  {
+    "name": "Executive Sanctions",
+    "elect": "",
+    "effect": "FOR : Each player can have a maximum of 3 action cards in their hand.\nAGAINST : Each player discards 1 random action card from their hand.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "executive-sanctions",
+    "removedInPok": false
+  },
+  {
+    "name": "Fleet Regulations",
+    "elect": "",
+    "effect": "FOR : Each player cannot have more than 4 tokens in their fleet pool.\nAGAINST : Each player places 1 command token from their reinforcements in their fleet pool.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "fleet-regulations",
+    "removedInPok": false
+  },
+  {
+    "name": "Holy Planet of Ixth",
+    "elect": "Cultural\nPlanet",
+    "effect": "Attach this card to the elected planet's card. The planet's owner gains 1 victory point. Units on this planet cannot use PRODUCTION. When a player gains control of this planet, they gain 1 victory point. When a player loses control of this planet, they lose 1 victory point.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "holy-planet-of-ixth",
+    "removedInPok": true
+  },
+  {
+    "name": "Homeland Defense Act",
+    "elect": "",
+    "effect": "FOR : Each player can have any number of PDS units on planets they control.\nAGAINST : Each player destroys 1 of their PDS unit.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "homeland-defense-act",
+    "removedInPok": false
+  },
+  {
+    "name": "Imperial Arbiter",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nAt the end of the strategy phase, the owner of this card may discard this card to swap 1 of their strategy cards with 1 of another player's strategy cards.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "imperial-arbiter",
+    "removedInPok": false
+  },
+  {
+    "name": "Minister of Commerce",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nAfter the owner of this card replenishes commodities, they gain 1 trade good for each player that is their neighbor.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "minister-of-commerce",
+    "removedInPok": false
+  },
+  {
+    "name": "Minister of Exploration",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nWhen the owner of this card gains control of a planet, they gain 1 trade good.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "minister-of-exploration",
+    "removedInPok": false
+  },
+  {
+    "name": "Minister of Industry",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nWhen the owner of this card places a space dock in a system, their units in that system may use their PRODUCTION abilities.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "minister-of-industry",
+    "removedInPok": false
+  },
+  {
+    "name": "Minister of Peace",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nAfter a player activates a system that contains 1 or more of a different player's units, the owner of this card may discard this card; immediately end the active player's turn.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "minister-of-peace",
+    "removedInPok": false
+  },
+  {
+    "name": "Minister of Policy",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nAt the end of the status phase, the owner of this card draws 1 action card.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "minister-of-policy",
+    "removedInPok": false
+  },
+  {
+    "name": "Minister of Sciences",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nWhen the owner of this card resolves the primary or secondary ability of the \"Technology\" strategy card, they do not need to spend resources to research technology.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "minister-of-sciences",
+    "removedInPok": false
+  },
+  {
+    "name": "Minister of War",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nThe owner of this card may discard this card after performing an action to remove 1 of their command counters from the game board and return it to their reinforcements; then they may perform 1 additional action.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "minister-of-war",
+    "removedInPok": false
+  },
+  {
+    "name": "Prophecy of Ixth",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nThe owner of this card applies +1 to the result of their fighter's combat rolls. When the owner of this card uses PRODUCTION, they discard this card unless they produce 2 or more fighters.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "prophecy-of-ixth",
+    "removedInPok": false
+  },
+  {
+    "name": "Publicize Weapon Schematics",
+    "elect": "",
+    "effect": "FOR : If any player owns a war sun technology, all players may ignore all prerequisites on war sun technologies. All war suns lose SUSTAIN DAMAGE.\nAGAINST : Each player that owns a war sun technology discards all of their action cards.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "publicize-weapon-schematics",
+    "removedInPok": false
+  },
+  {
+    "name": "Regulated Conscription",
+    "elect": "",
+    "effect": "FOR : When a player produces units, they produce only 1 fighter and infantry for its cost instead of 2.\nAGAINST : No effect.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "regulated-conscription",
+    "removedInPok": false
+  },
+  {
+    "name": "Representative Government (TI4)",
+    "elect": "",
+    "effect": "FOR : Players cannot exhaust planets to cast votes during the agenda phase. Each player may cast 1 vote on each agenda instead.\nAGAINST : At the start of the next strategy phase, each player that voted \"Against\" exhausts all of their cultural planets.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "representative-government-ti",
+    "removedInPok": false
+  },
+  {
+    "name": "Research Team: Biotic",
+    "elect": "Industrial Planet",
+    "effect": "Attach this card to the elected planet's card.\nWhen the owner of this planet researches technology, they may exhaust this card to ignore 1 green prerequisite.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "research-team-biotic",
+    "removedInPok": true
+  },
+  {
+    "name": "Research Team:\nCybernetic",
+    "elect": "Industrial Planet",
+    "effect": "Attach this card to the elected planet's card.\nWhen the owner of this planet researches technology, they may exhaust this card to ignore 1 yellow prerequisite.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "research-teamcybernetic",
+    "removedInPok": false
+  },
+  {
+    "name": "Research Team: Propulsion",
+    "elect": "Industrial Planet",
+    "effect": "Attach this card to the elected planet's card.\nWhen the owner of this planet researches technology, they may exhaust this card to ignore 1 blue prerequisite.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "research-team-propulsion",
+    "removedInPok": true
+  },
+  {
+    "name": "Research Team: Warfare",
+    "elect": "Hazardous\nPlanet",
+    "effect": "Attach this card to the elected planet's card.\nWhen the owner of this planet researches technology, they may exhaust this card to ignore 1 red prerequisite.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "research-team-warfare",
+    "removedInPok": true
+  },
+  {
+    "name": "Senate Sanctuary",
+    "elect": "Cultural\nPlanet",
+    "effect": "Attach this card to the elected planet's card.\nThe influence value of this planet is increased by 2.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "senate-sanctuary",
+    "removedInPok": true
+  },
+  {
+    "name": "Shard of the Throne",
+    "elect": "Player",
+    "effect": "The elected player gains this card and 1 victory point.\nA player gains this card and 1 victory point when they win a combat against the owner of this card. Then, the previous owner of this card loses 1 victory point.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "shard-of-the-throne",
+    "removedInPok": true
+  },
+  {
+    "name": "Shared Research",
+    "elect": "",
+    "effect": "FOR : Each player's units can move through nebulae.\nAGAINST : Each player places a command token from their reinforcements in their home system, if able.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "shared-research",
+    "removedInPok": false
+  },
+  {
+    "name": "Terraforming Initiative",
+    "elect": "Hazardous\nPlanet",
+    "effect": "Attach this card to the elected planet's card.\nThe resource and influence values of this planet are increased by 1.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "terraforming-initiative",
+    "removedInPok": true
+  },
+  {
+    "name": "The Crown of Emphidia",
+    "elect": "Player",
+    "effect": "The elected player gains this card and 1 victory point.\nA player gains this card and 1 victory point after they gain control of a planet in the home system of this card's owner. Then, the previous owner of this card loses 1 victory point.",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "the-crown-of-emphidia",
+    "removedInPok": true
+  },
+  {
+    "name": "The Crown of Thalnos",
+    "elect": "Player",
+    "effect": "The elected player gains this card.\nDuring each combat round, the owner of this card may reroll any number of dice; they must destroy each of  their units that did not produce a hit with its reroll.\n(Typo: The card itself says \"The Crown of Thanlos,\" but rules referring to it use the correct name.)",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "the-crown-of-thalnos",
+    "removedInPok": true
+  },
+  {
+    "name": "Wormhole Reconstruction",
+    "elect": "",
+    "effect": "FOR : All systems that contain either an alpha or beta wormhole are adjacent to each other.\nAGAINST : Each player places a command token from their reinforcements in each system that contains a wormhole and 1 or more of their ships.\n",
+    "agendaType": "law",
+    "introducedInPok": false,
+    "id": "wormhole-reconstruction",
+    "removedInPok": false
+  },
+  {
+    "name": "Archived Secret",
+    "elect": "Player",
+    "effect": "Elected player draws 1 secret objective.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "archived-secret",
+    "removedInPok": false
+  },
+  {
+    "name": "Arms Reduction",
+    "elect": "",
+    "effect": "FOR : Each player destroys all but 2 of their dreadnaughts and all but 4 of their cruisers.\nAGAINST : At the start of the next strategy phase, each player exhausts each of their planets that have a technology specialty.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "arms-reduction",
+    "removedInPok": false
+  },
+  {
+    "name": "Colonial Redistribution",
+    "elect": "Non-Home Planet Other Than Mecatol Rex",
+    "effect": "Destroy each unit on the elected planet. Then, the player who controls that planet chooses 1 player with the fewest victory points; that player may place 1 infantry from their reinforcements on the elected planet.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "colonial-redistribution",
+    "removedInPok": false
+  },
+  {
+    "name": "Compensated Disarmament",
+    "elect": "Planet",
+    "effect": "Destroy each ground force on the elected planet; for each unit that was destroyed, the player who controls that planet gains 1 trade good.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "compensated-disarmament",
+    "removedInPok": false
+  },
+  {
+    "name": "Economic Equality",
+    "elect": "",
+    "effect": "FOR : Each player returns all of their trade goods to the supply. Then, each player gains 5 trade goods.\nAGAINST : Each player returns all of their trade goods to the supply.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "economic-equality",
+    "removedInPok": false
+  },
+  {
+    "name": "Incentive Program",
+    "elect": "",
+    "effect": "FOR : Draw and reveal 1 stage I public objective from the deck and place it near the public objectives.\nAGAINST : Draw and reveal 1 stage II public objective from the deck and place it near the public objectives.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "incentive-program",
+    "removedInPok": false
+  },
+  {
+    "name": "Ixthian Artifact",
+    "elect": "",
+    "effect": "FOR : The speaker rolls 1 die. If the result is 6-10, each player may research 2 technologies. If the result is 1-5, destroy all units in Mecatol Rex's system, and each player with units in systems adjacent to Mecatol Rex's system destroys 3 of their units in each of those systems.\nAGAINST : No effect.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "ixthian-artifact",
+    "removedInPok": false
+  },
+  {
+    "name": "Judicial Abolishment",
+    "elect": "Law",
+    "effect": "When this agenda is revealed, if there are no laws in play, discard this card and reveal another agenda from the top of the deck.\nDiscard the elected law from play.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "judicial-abolishment",
+    "removedInPok": false
+  },
+  {
+    "name": "Miscount Disclosed",
+    "elect": "Law",
+    "effect": "When this agenda is revealed, if there are no laws in play, discard this card and reveal another agenda from the top of the deck.\nVote on the elected law as if it were just revealed from the top of the deck.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "miscount-disclosed",
+    "removedInPok": false
+  },
+  {
+    "name": "Mutiny",
+    "elect": "",
+    "effect": "FOR : Each player who voted \"For\" gains 1 victory point.\nAGAINST : Each player who voted \"For\" loses 1 victory point.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "mutiny",
+    "removedInPok": false
+  },
+  {
+    "name": "New Constitution",
+    "elect": "",
+    "effect": "When this agenda is revealed, if there are no laws in play, discard this card and reveal another agenda from the top of the deck.\nFOR : Discard all laws in play. At the start of the next strategy phase, each player exhausts each planet in their home system.\nAGAINST : No effect.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "new-constitution",
+    "removedInPok": false
+  },
+  {
+    "name": "Public Execution",
+    "elect": "Player",
+    "effect": "The elected player discards all of their action cards. If they have the speaker token, they give it to the player on their left. The elected player cannot vote on any agendas during this agenda phase.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "public-execution",
+    "removedInPok": false
+  },
+  {
+    "name": "Seed of an Empire",
+    "elect": "",
+    "effect": "FOR : The player with most victory points gains 1 victory point.\nAGAINST : The player with the fewest victory points gains 1 victory point.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "seed-of-an-empire",
+    "removedInPok": false
+  },
+  {
+    "name": "Swords to Plowshares",
+    "elect": "",
+    "effect": "FOR : Each player destroys half of their infantry on each planet they control, rounded up. Then, each player gains trade goods equal to the number of their infantry that were destroyed.\nAGAINST : Each player places 1 infantry from their reinforcements on each planet they control.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "swords-to-plowshares",
+    "removedInPok": false
+  },
+  {
+    "name": "Unconventional Measures",
+    "elect": "",
+    "effect": "FOR : Each player that voted \"For\" draws 2 action cards.\nAGAINST : Each player that voted \"For\" discards all of their action cards.",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "unconventional-measures",
+    "removedInPok": false
+  },
+  {
+    "name": "Wormhole Research",
+    "elect": "",
+    "effect": "FOR : Each player who has 1 or more ships in a system that contains a wormhole may research 1 technology. Then, destroy all ships in systems that contain an alpha or beta wormhole.\nAGAINST : Each player that voted \"Against\" removes 1 command token from their command sheet and returns it to their reinforcements.\n",
+    "agendaType": "directive",
+    "introducedInPok": false,
+    "id": "wormhole-research",
+    "removedInPok": false
+  },
+  {
+    "name": "Articles of War",
+    "elect": "",
+    "effect": "FOR : All mechs lose their printed abilities except for SUSTAIN DAMAGE.\nAGAINST : Each player that voted \"For\" gains 3 trade goods.",
+    "agendaType": "law",
+    "introducedInPok": true,
+    "id": "articles-of-war",
+    "removedInPok": false
+  },
+  {
+    "name": "Checks and Balances",
+    "elect": "",
+    "effect": "FOR : When a player chooses a strategy card during the strategy phase, they give that strategy card to another player that does not have 1 (or a player that does not have 2 in a three- or four-player game), if able.\nAGAINST : Each player readies only 3 of their planets at the end of this agenda phase.",
+    "agendaType": "law",
+    "introducedInPok": true,
+    "id": "checks-and-balances",
+    "removedInPok": false
+  },
+  {
+    "name": "Nexus Sovereignty",
+    "elect": "",
+    "effect": "FOR : Alpha and beta wormholes in the wormhole nexus have no effect during movement.\nAGAINST : Place a gamma wormhole token in the Mecatol Rex system.",
+    "agendaType": "law",
+    "introducedInPok": true,
+    "id": "nexus-sovereignty",
+    "removedInPok": false
+  },
+  {
+    "name": "Political Censure",
+    "elect": "Player",
+    "effect": "The elected player gains this card and 1 victory point.\nThe elected player cannot play action cards. \nIf the owner of this card loses this card, they lose 1 victory point.",
+    "agendaType": "law",
+    "introducedInPok": true,
+    "id": "political-censure",
+    "removedInPok": false
+  },
+  {
+    "name": "Representative Government (POK)",
+    "elect": "",
+    "effect": "FOR : Players cannot exhaust planets to cast votes during the agenda phase; each player may cast 1 vote on each agenda instead. Players cannot cast additional votes.\nAGAINST : At the start of the next strategy phase, each player that voted \"Against\" exhausts all of their cultural planets.",
+    "agendaType": "law",
+    "introducedInPok": true,
+    "id": "representative-government-pok",
+    "removedInPok": false
+  },
+  {
+    "name": "Search Warrant",
+    "elect": "Player",
+    "effect": "The elected player gains this card and draws 2 secret objectives.\nThe owner of this card plays with their secret objectives revealed.\n",
+    "agendaType": "law",
+    "introducedInPok": true,
+    "id": "search-warrant",
+    "removedInPok": false
+  },
+  {
+    "name": "Armed Forces Standardization",
+    "elect": "Player",
+    "effect": "The elected player places command tokens from their reinforcements so that they have 3 tokens in their tactic pool, 3 tokens in their fleet pool and 2 tokens in their strategy pool. They return any excess tokens to their reinforcements.",
+    "agendaType": "directive",
+    "introducedInPok": true,
+    "id": "armed-forces-standardization",
+    "removedInPok": false
+  },
+  {
+    "name": "Clandestine Operations",
+    "elect": "",
+    "effect": "FOR : Each player removes 2 command tokens from their command sheet and returns those tokens to their reinforcements.\nAGAINST : Each player removes 1 command token from their fleet pool and returns that token to their reinforcements.",
+    "agendaType": "directive",
+    "introducedInPok": true,
+    "id": "clandestine-operations",
+    "removedInPok": false
+  },
+  {
+    "name": "Covert Legislation",
+    "elect": "",
+    "effect": "When this agenda is revealed, the speaker draws the next card in the agenda deck but does not reveal it to the other players. Instead, the speaker reads the eligible outcomes aloud (for, against, elect player, etc.); the other players vote for these outcomes as if they were outcomes of this agenda, without knowing their effects.",
+    "agendaType": "directive",
+    "introducedInPok": true,
+    "id": "covert-legislation",
+    "removedInPok": false
+  },
+  {
+    "name": "Galactic Crisis Pact",
+    "elect": "Strategy Card",
+    "effect": "Each player may perform the secondary ability of the elected strategy card without spending a command token; command tokens placed by the ability are placed from a player's reinforcements instead.",
+    "agendaType": "directive",
+    "introducedInPok": true,
+    "id": "galactic-crisis-pact",
+    "removedInPok": false
+  },
+  {
+    "name": "Minister of Antiques",
+    "elect": "Player",
+    "effect": "The elected player gains 1 relic.",
+    "agendaType": "directive",
+    "introducedInPok": true,
+    "id": "minister-of-antiques",
+    "removedInPok": false
+  },
+  {
+    "name": "Rearmament Agreement",
+    "elect": "",
+    "effect": "FOR : Each player places 1 mech from their reinforcements on a planet they control in their home system.\nAGAINST : Each player replaces each of their mechs with 1 infantry from their reinforcements.",
+    "agendaType": "directive",
+    "introducedInPok": true,
+    "id": "rearmament-agreement",
+    "removedInPok": false
+  },
+  {
+    "name": "Research Grant Reallocation",
+    "elect": "Player",
+    "effect": "The elected player gains any 1 technology of their choice. Then, for each prerequisite on that technology, they remove 1 token from their fleet pool and return it to their reinforcements.",
+    "agendaType": "directive",
+    "introducedInPok": true,
+    "id": "research-grant-reallocation",
+    "removedInPok": false
+  }
+]
