@@ -5,10 +5,21 @@ import StarredList from "@/components/StarredList";
 import { sortBy } from "@/util/sortBy";
 import actionCards from "@/data/ac.json";
 import { ListContainer, ListItem } from "@/components/ListItem";
+import SearchBar, {
+  useItemFilterSearchBar,
+  useSearchBar,
+} from "@/components/Search";
+import { useMemo } from "react";
 
-const items = sortBy(actionCards, "name");
+const allItems = sortBy(actionCards, "name");
 
 const Page = () => {
+  const { items, searchBarProps } = useItemFilterSearchBar(allItems, [
+    "name",
+    "effect",
+    "play",
+  ]);
+
   const renderItem = (item: (typeof items)[number]) => {
     return (
       <li>
@@ -33,6 +44,9 @@ const Page = () => {
         <Link href="/">{"<"} All info</Link>
       </div>
       <h1>Action Cards</h1>
+      <div>
+        <SearchBar {...searchBarProps} />
+      </div>
       <ListContainer>{items.map(renderItem)}</ListContainer>
     </Container>
   );

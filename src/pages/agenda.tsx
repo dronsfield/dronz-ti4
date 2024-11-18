@@ -5,13 +5,21 @@ import StarredList from "@/components/StarredList";
 import { sortBy } from "@/util/sortBy";
 import agendas from "@/data/agenda.json";
 import { ListContainer, ListItem } from "@/components/ListItem";
+import { useItemFilterSearchBar } from "@/components/Search";
+import SearchBar from "@/components/Search";
 
-const items = sortBy(
+const allItems = sortBy(
   agendas.filter((item) => !item.removedInPok),
   "name"
 );
 
 const Page = () => {
+  const { items, searchBarProps } = useItemFilterSearchBar(allItems, [
+    "name",
+    "effect",
+    "elect",
+  ]);
+
   const rendaAgenda = (item: (typeof items)[number]) => {
     return (
       <li>
@@ -38,6 +46,9 @@ const Page = () => {
         <Link href="/">{"<"} All info</Link>
       </div>
       <h1>Agendas</h1>
+      <div>
+        <SearchBar {...searchBarProps} />
+      </div>
       <h2>Laws (permanent changes)</h2>
       <ListContainer>
         {items.filter((item) => item.agendaType === "law").map(rendaAgenda)}
