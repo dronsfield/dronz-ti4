@@ -1,5 +1,5 @@
 import useDebounce from "@/hooks/useDebounce";
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 
 interface SearchBarProps {
   placeholder?: string;
@@ -17,11 +17,22 @@ const SearchBar: React.FC<SearchBarProps> = ({
     setValue(value);
   };
 
+  const inputRef = useRef<HTMLInputElement>(null);
+
+  const handleKeyDown = (e: React.KeyboardEvent) => {
+    if (e.key === "Enter") {
+      e.preventDefault();
+      inputRef.current?.blur();
+    }
+  };
+
   return (
     <input
+      ref={inputRef}
       type="text"
       value={value}
       onChange={handleInputChange}
+      onKeyDown={handleKeyDown}
       placeholder={placeholder}
       style={{
         width: "100%",
