@@ -30,7 +30,9 @@ const Page = () => {
       <Grid>
         {createArray(8).map((_, index) => {
           const initiative = index + 1;
-          const ext = initiative === 2 ? "webp" : "png";
+          // if red tape
+          // const ext = initiative === 2 ? "webp" : "png";
+          const ext = "png";
           return (
             <div
               style={{ backgroundImage: `url("/sc/${initiative}.${ext}")` }}
