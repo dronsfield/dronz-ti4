@@ -28,9 +28,12 @@ function cleanFactionPage(document: Document) {
   const leadersTable =
     clone.querySelector("#Leaders").parentNode.nextElementSibling;
 
-  leadersTable
-    .querySelectorAll(`th:nth-child(2), td:nth-child(2)`)
-    .forEach((el) => el.remove());
+  leadersTable.querySelectorAll(`tr`).forEach((el) => {
+    if (el.childNodes.length === 10) {
+      el.querySelector(`td:nth-child(2)`)?.remove();
+    }
+  });
+  leadersTable.querySelectorAll(`th:nth-child(2)`).forEach((el) => el.remove());
 
   leadersTable.querySelectorAll(`td:first-child`).forEach((el) => {
     el.dataset.leaderType = "";
@@ -151,7 +154,7 @@ const downloadWebpage = async (
 
 promiseSequence(
   factionNames.map((name) => {
-    // ["The Arborec"].map((name) => {
+    // ["The Yin Brotherhood"].map((name) => {
     const scrapePath = convertNameToScrapePath(name);
     const appPath = convertNameToId(name);
     return async () => {
