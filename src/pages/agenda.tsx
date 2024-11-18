@@ -13,10 +13,6 @@ const items = sortBy(
 
 const Page = () => {
   const rendaAgenda = (item: (typeof items)[number]) => {
-    let body = "";
-    if (item.elect) body += `Elect: ${item.elect}`;
-    body += "\n";
-    body += item.effect;
     return (
       <li>
         <ListItem
